@@ -1,0 +1,3161 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/"
+     xml:base="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#BBQ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#BBQ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Мʼясо"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Finger_food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Finger_food"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Food_pairing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Food_pairing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Pet-friendly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Pet-friendly"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Pop-up -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Pop-up"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#PravdaOrchestra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#PravdaOrchestra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Музика"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Untappd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Untappd"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Європейська_кухня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Європейська_кухня"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Івент_хол -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Івент_хол"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Івенти -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Івенти"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ідеологія -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ідеологія"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Імпортне_пиво -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Імпортне_пиво">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Індивідуальний_підхід -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Індивідуальний_підхід"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Іриска -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Іриска">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Десерти"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Іспанський_чобіт -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Іспанський_чобіт"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Історія -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Історія"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Історія_міста -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Історія_міста"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Їдальня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Їдальня"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Автентичні_страви -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Автентичні_страви"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Авторська_продукція -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Авторська_продукція"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Авторські_коктейлі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Авторські_коктейлі">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Коктейлі"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Акція -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Акція"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Алкоголь -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Алкоголь"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Алкогольні_молочні_коктейлі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Алкогольні_молочні_коктейлі">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Коктейлі"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Алхімія -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Алхімія"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Альтернатива -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Альтернатива">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Арабіка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Арабіка">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Артплатформа -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Артплатформа"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Атмосфера -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Атмосфера"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Атмосферно -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Атмосферно"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Афродизіаки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Афродизіаки"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Багато_пива -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Багато_пива">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Багет -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Багет">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Хліб"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Балкон -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Балкон"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Бандера -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Бандера"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Бандерівці -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Бандерівці"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Банкети -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Банкети"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Бар -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Бар"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Бармени -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Бармени"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Барна_тусовка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Барна_тусовка"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Батіг -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Батіг"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Безсоромна_пропозиція -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Безсоромна_пропозиція"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Бернардинський_дворик -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Бернардинський_дворик"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Благодійний_концерт -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Благодійний_концерт">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Музика"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Бограч -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Бограч"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Борошно -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Борошно">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Хліб"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Борщ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Борщ"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Бочкове_пиво -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Бочкове_пиво">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Бронюй_номер -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Бронюй_номер"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Бункер -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Бункер"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Біля_дому -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Біля_дому"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Біля_парку -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Біля_парку"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ванна_в_номері -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ванна_в_номері"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вареники -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вареники"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Велике_лате -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Велике_лате">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Великий_вибір_пива -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Великий_вибір_пива">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Венера_в_хутрі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Венера_в_хутрі"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вечеря -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вечеря"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вечір -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вечір"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вечірка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вечірка"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вивід_москаля -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вивід_москаля"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вигляд_на_площу_Ринок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вигляд_на_площу_Ринок"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вигляд_на_ратушу -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вигляд_на_ратушу"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вид -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вид"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вид_на_Площу_Ринок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вид_на_Площу_Ринок"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Винна_мапа -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Винна_мапа">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Вино"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вино -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вино">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Вино"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Випічка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Випічка"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Виставка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Виставка"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вихідні_у_Львові -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вихідні_у_Львові">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Львів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вишня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вишня"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вишнівка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вишнівка"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вишнівка_в_мандрівку -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вишнівка_в_мандрівку"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Виїздні_дегустації_вина -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Виїздні_дегустації_вина">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Вино"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Власний_оркестр -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Власний_оркестр">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Музика"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вогень -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вогень"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вогонь -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вогонь"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Володарка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Володарка"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Відкривачки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Відкривачки"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Відкрита_кухня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Відкрита_кухня"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Відпочинок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Відпочинок"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Відро_пива -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Відро_пива">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вікенд_Львів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вікенд_Львів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Львів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вініл -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вініл">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Музика"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Галерея -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Галерея"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Галицька_Алхімія -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Галицька_Алхімія"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Галицькі_рецепти -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Галицькі_рецепти"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Гарно_проведений_час -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Гарно_проведений_час"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Гарячі_напої -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Гарячі_напої"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Гас -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Гас"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Гастровечори -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Гастровечори"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Гастрономічна_атракція -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Гастрономічна_атракція"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Гендер_паті -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Гендер_паті"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Годинники -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Годинники"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Гостро -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Гостро"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Готель -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Готель"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Графіка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Графіка"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Гуцули -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Гуцули"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Гільзи -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Гільзи"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дворик -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дворик"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Двіж -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Двіж"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Де_відсвяткувати_день_народження -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Де_відсвяткувати_день_народження"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дегустаційний_сет -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дегустаційний_сет">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Хліб"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дегустація -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дегустація"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дегустації -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дегустації"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дегустації_вина -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дегустації_вина">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Вино"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#День_народження -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#День_народження"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Деруни -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Деруни"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Десерти -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Десерти">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Десерти"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Десерти_з_собою -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Десерти_з_собою">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Десерти"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Десь_на_площі_Ринок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Десь_на_площі_Ринок"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Джаз -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Джаз"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Джезва -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Джезва"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Джерки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Джерки"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дзеркала -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дзеркала"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дзиґармайстер -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дзиґармайстер"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дива_музика -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дива_музика">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Музика"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дивізія_Галичина -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дивізія_Галичина"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дитячий_майданчик -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дитячий_майданчик">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Майданчик"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Для_двох -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Для_двох"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Для_закоханих -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Для_закоханих"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Для_компанії -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Для_компанії"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Для_спілкування -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Для_спілкування"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#До_пива -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#До_пива">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Домашнє_вино -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Домашнє_вино">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Вино"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Домашні_йогурти -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Домашні_йогурти"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Доставка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Доставка"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Доставка_пива -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Доставка_пива">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Доставка_їжі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Доставка_їжі"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Друзі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Друзі"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дубові_Бочки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дубові_Бочки"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Діалог -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Діалог"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дівич_вечір -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дівич_вечір"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дівичі_вечори -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дівичі_вечори"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дід_на_вході -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Дід_на_вході"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Діти -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Діти"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Екскурсія_в_шахті -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Екскурсія_в_шахті"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Експозиція -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Експозиція"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Емоції -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Емоції"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Етно -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Етно">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Музика"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Жива_музика -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Жива_музика">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Музика"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Закриває_усі_потреби -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Закриває_усі_потреби"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Закуски -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Закуски"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Закуски_до_пива -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Закуски_до_пива">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Зал_для_подій -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Зал_для_подій"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Запах -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Запах"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Запаяна_кава -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Запаяна_кава">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Затишний_дворик -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Затишний_дворик"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Затишно -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Затишно"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Затишні_зустрічі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Затишні_зустрічі"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Затишок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Затишок"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Захід_сонця -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Захід_сонця"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Зброя -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Зброя"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Зенітка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Зенітка"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Зустріч -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Зустріч"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Зігріваючі_коктейлі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Зігріваючі_коктейлі">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Коктейлі"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Зігріває -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Зігріває"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Зілля -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Зілля"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кавʼярня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кавʼярня">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кава -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кава">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кава_в_турці_Львів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кава_в_турці_Львів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кава_з_вогнем -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кава_з_вогнем">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кава_на_подарунок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кава_на_подарунок">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кавова_підписка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кавова_підписка">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кавовий_шоколад -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кавовий_шоколад">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кавові -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кавові">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Канапки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Канапки">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Хліб"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Капінг -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Капінг"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Картини -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Картини"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Карцер -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Карцер"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кат -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кат"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Вино -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Вино"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Десерти -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Десерти"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Кава -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Кава">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Десерти"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Коктейлі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Коктейлі"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Львів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Львів"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Мʼясо -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Мʼясо"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Майданчик -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Майданчик"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Музика -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Музика">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Хліб"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Наливки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Наливки"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Сувеніри -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Сувеніри"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Хліб -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Хліб"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кауфман -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кауфман"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кафе -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кафе"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Келихи -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Келихи"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Келішок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Келішок"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Керосин -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Керосин"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кисле_пиво -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кисле_пиво">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Київ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Київ"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Клітка_боржника -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Клітка_боржника"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кнайпа -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кнайпа"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Коктейль -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Коктейль">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Коктейлі"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Коктейлі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Коктейлі">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Коктейлі"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Колекція_вінілу -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Колекція_вінілу"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Колекція_гострих_соусів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Колекція_гострих_соусів"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Команда -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Команда"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Компанії -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Компанії"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Комплексні_обіди -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Комплексні_обіди"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Комфорт -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Комфорт"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кондитерка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кондитерка">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Десерти"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Концептуальні -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Концептуальні"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Концептуалісти -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Концептуалісти"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Концепція -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Концепція"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Концерт -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Концерт">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Музика"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Концерти -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Концерти">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Музика"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Концерти_українських_гуртів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Концерти_українських_гуртів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Музика"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Корпоратив -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Корпоратив"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Костери -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Костери"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Крамниця -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Крамниця"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Красиві_місця -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Красиві_місця"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Крафт -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Крафт"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Крафтове_пиво -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Крафтове_пиво">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Куди_піти_Львів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Куди_піти_Львів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Львів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Культові_місця_Львова -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Культові_місця_Львова">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Львів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Культура_крафтового_пива -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Культура_крафтового_пива">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Культурна_програма -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Культурна_програма"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кульчицький -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кульчицький"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Купити_медовуху -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Купити_медовуху"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Лампа -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Лампа"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Легенда -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Легенда"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Легенда_Львів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Легенда_Львів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Львів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Легкість -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Легкість"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Локальна_кухня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Локальна_кухня"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Локальна_історія -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Локальна_історія"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Локальні_пиоварні -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Локальні_пиоварні">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Львів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Львів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Львів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Львів_куди_піти -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Львів_куди_піти">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Львів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Львівська_кава -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Львівська_кава">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Люстра -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Люстра"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Лімітоване_пиво -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Лімітоване_пиво"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Літературно -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Літературно"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Літній_майданчик -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Літній_майданчик">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Майданчик"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ліхтарі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ліхтарі"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Мʼясні -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Мʼясні">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Мʼясо"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Мʼясо -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Мʼясо">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Мʼясо"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Мʼясо_на_відкритому_вогні -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Мʼясо_на_відкритому_вогні">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Мʼясо"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Магазин -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Магазин"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Магазин_вина -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Магазин_вина">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Вино"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Мазох -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Мазох"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Майданчик -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Майданчик">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Майданчик"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Майданчик_Львів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Майданчик_Львів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Львів"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Майданчик"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Майданчик_з_видом_на_озеро -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Майданчик_з_видом_на_озеро">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Майданчик"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Майстерка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Майстерка"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Малювання -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Малювання"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Мангал -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Мангал"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Маска_ганьби -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Маска_ганьби"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Медовуха -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Медовуха"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Мережа_закладів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Мережа_закладів"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ми_просто_хочемо_випити -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ми_просто_хочемо_випити"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Мистецтво -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Мистецтво"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Можна_з_дітьми -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Можна_з_дітьми"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Можна_з_тваринами -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Можна_з_тваринами"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Молочні -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Молочні"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Молочні_коктейлі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Молочні_коктейлі"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Москалодетектор -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Москалодетектор"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Москалі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Москалі"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Мотоцикл -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Мотоцикл"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Мужик_з_автоматом -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Мужик_з_автоматом"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Мужик_на_вході -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Мужик_на_вході"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Музей -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Музей"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Музика -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Музика"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Музиканти -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Музиканти"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Мікро-паб -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Мікро-паб"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Місце_для_святкування -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Місце_для_святкування"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#На_вид -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#На_вид"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#На_вино_з_собою -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#На_вино_з_собою">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Вино"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#На_каву -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#На_каву">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#На_каву_з_десертом -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#На_каву_з_десертом">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#На_районі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#На_районі"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Навчання -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Навчання"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Наган -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Наган"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Нагороди -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Нагороди"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Найбільший_вибір_крафтового_пива -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Найбільший_вибір_крафтового_пива">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Найсмачніші_ребра -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Найсмачніші_ребра">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Мʼясо"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Наливають_на_вході -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Наливають_на_вході"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Наливки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Наливки">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Наливки"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Намазанки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Намазанки"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Напої -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Напої"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Насолода -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Насолода"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Настоянка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Настоянка"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Настоянки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Настоянки"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Настрій -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Настрій"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Натуральний_продукт -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Натуральний_продукт"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Нафта -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Нафта"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ніч_в_Мазоху -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ніч_в_Мазоху"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Обсмажка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Обсмажка"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Обід -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Обід"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Оглядовий_майданчик -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Оглядовий_майданчик">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Майданчик"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Одеса -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Одеса"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Одяг -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Одяг"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Оркестр -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Оркестр"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Освідчення -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Освідчення"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Особливе_пиво -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Особливе_пиво">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Паб -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Паб"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Паб_в_центрі_міста -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Паб_в_центрі_міста"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Паляниця -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Паляниця"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пан_малодобрий -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пан_малодобрий"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Панорама -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Панорама"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Патріотичні_сувеніри -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Патріотичні_сувеніри">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Сувеніри"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пекарня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пекарня">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Десерти"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Перекуси -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Перекуси"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Перформанс -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Перформанс"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Перші_страви -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Перші_страви"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пивний_магазин -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пивний_магазин">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пивний_паб -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пивний_паб">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пивні_десерти -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пивні_десерти">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Десерти"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пивні_набори -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пивні_набори">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пивні_фестивалі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пивні_фестивалі">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пиво -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пиво">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пиво_в_банці -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пиво_в_банці">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пиво_з_собою -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пиво_з_собою">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пиво_зі_всієї_України -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пиво_зі_всієї_України">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пиво_на_Розлив -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пиво_на_Розлив">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пиво_на_районі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пиво_на_районі">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пиво_і_спорт_сумісні -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пиво_і_спорт_сумісні">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Площа_Ринок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Площа_Ринок"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Площа_Ринок_Львів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Площа_Ринок_Львів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Львів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пляшкове_пиво -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пляшкове_пиво">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#По-східному -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#По-східному"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Побачення -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Побачення"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Подарунок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Подарунок"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Подарунок_з_перчинкою -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Подарунок_з_перчинкою"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Подкаст -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Подкаст"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Події -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Події"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Поливки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Поливки"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Популярне_пиво -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Популярне_пиво">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Посвідки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Посвідки"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Посиденьки_з_друзями -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Посиденьки_з_друзями"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Правдиве_пиво -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Правдиве_пиво">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Презентація_пива -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Презентація_пива">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пристрасть -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пристрасть"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пробірки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пробірки"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Простір -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Простір"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пструг -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пструг"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Путін_хуйло -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Путін_хуйло"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Півметра_ковбаси -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Півметра_ковбаси">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Мʼясо"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Підкаст -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Підкаст"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пікніки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пікніки"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пілземелля -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Пілземелля"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Район -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Район"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ранок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ранок"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ребра -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ребра">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Мʼясо"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#РезерваціяЛьвів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#РезерваціяЛьвів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Львів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ресторан -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ресторан"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ресторан_в_підвалі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ресторан_в_підвалі"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ресторація -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ресторація"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Риба -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Риба"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Рибні -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Рибні"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Робота -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Робота"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Розливне_пиво -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Розливне_пиво">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Розпуста -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Розпуста"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Рок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Рок"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Романтичне_місце -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Романтичне_місце"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сад_на_даху -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сад_на_даху"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сало -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сало"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Саловий_шоколад -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Саловий_шоколад">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Десерти"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Святкування -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Святкування"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Святкування_дня_народження -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Святкування_дня_народження"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Свято -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Свято"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Світле_пиво -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Світле_пиво">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сертифікат -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сертифікат"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сет_наливок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сет_наливок">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Наливки"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сет_настоянок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сет_настоянок"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сирник -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сирник">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Десерти"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сирні_наїдки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сирні_наїдки"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Скульптура -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Скульптура"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Смажене -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Смажене"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Смак_дитинства -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Смак_дитинства"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Смаколики -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Смаколики">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Десерти"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Смачна_їжа -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Смачна_їжа"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сніданки_в_готелі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сніданки_в_готелі"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сніданки_весь_день -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сніданки_весь_день"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сніданкові_таці -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сніданкові_таці"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сніданок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сніданок"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сніданок_цілий_день -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сніданок_цілий_день"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Солера -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Солера"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Солодке -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Солодке">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Десерти"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Солодкий_сирок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Солодкий_сирок">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Десерти"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Солодкі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Солодкі">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Десерти"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сомельє -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сомельє"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Спекотно -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Спекотно"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Спеціальні_коктейлі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Спеціальні_коктейлі">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Коктейлі"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Спокуса -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Спокуса"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Спокій -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Спокій"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Справжнє_молоко -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Справжнє_молоко">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Спік_ізі_ресторан -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Спік_ізі_ресторан"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Стейк -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Стейк">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Мʼясо"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Стейк_мясника -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Стейк_мясника">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Мʼясо"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Стейк_хаус -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Стейк_хаус">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Мʼясо"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Стеля_з_пляшок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Стеля_з_пляшок"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Стендап -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Стендап"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Столики_-_підвіконники -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Столики_-_підвіконники"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Страви_з_вогню -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Страви_з_вогню">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Стрейчінг -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Стрейчінг"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Стрийський_парк -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Стрийський_парк"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Студенти -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Студенти"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Студентська_їдальня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Студентська_їдальня"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Стілень_мойсея -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Стілень_мойсея"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сувеніри -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сувеніри">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Сувеніри"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сувеніри_зі_Львова -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сувеніри_зі_Львова">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Львів"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Сувеніри"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сувенірна_крамниця -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сувенірна_крамниця">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Сувеніри"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сусіди -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сусіди"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сцена -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сцена"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сімейний -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сімейний"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сімейні -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Сімейні"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Та_сама_Реберня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Та_сама_Реберня"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Театр_пива -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Театр_пива">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Темне_пиво -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Темне_пиво">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Тепло -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Тепло"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Теплі_зустрічі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Теплі_зустрічі"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Тераса -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Тераса"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Тир -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Тир"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Трансляція_матчів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Трансляція_матчів"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Трапезна -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Трапезна"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Трубочка_зі_згущиком -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Трубочка_зі_згущиком">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Десерти"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Туристи -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Туристи"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ті_самі_Ребра -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ті_самі_Ребра">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Мʼясо"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#УПА -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#УПА"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Українські_страви -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Українські_страви"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Унікальність -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Унікальність"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Фантазії -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Фантазії"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Фермерське_морозиво -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Фермерське_морозиво">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Десерти"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Фермерські -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Фермерські"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Флогер -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Флогер"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Фольк -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Фольк">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Музика"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Фондю -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Фондю"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Форель -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Форель"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Фруктове_пиво -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Фруктове_пиво">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Фуршети -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Фуршети"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Футболки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Футболки"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Футболки_з_Бандерою -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Футболки_з_Бандерою"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Фільтр -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Фільтр">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Фірмове_пиво -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Фірмове_пиво">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Фірмові_Ребра -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Фірмові_Ребра">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Мʼясо"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Хліб -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Хліб">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Хліб"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Хміль -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Хміль"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Хріновуха -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Хріновуха"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Хімічний_дослід -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Хімічний_дослід"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Це_просто_Вогень -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Це_просто_Вогень"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Центр -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Центр"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Церемонія -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Церемонія"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ціни_з_нулем -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ціни_з_нулем"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Червона_рута -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Червона_рута"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Черга -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Черга"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Шашлик -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Шашлик">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Мʼясо"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Швидке_харчування -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Швидке_харчування"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Шеврони -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Шеврони"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Шкіра -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Шкіра"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Шкіряні_аксесуари -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Шкіряні_аксесуари"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Шмагання -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Шмагання"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Шмайсер -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Шмайсер"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Штрудель -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Штрудель">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Десерти"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Шумно -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Шумно"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Щойнообсмажена_кава -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Щойнообсмажена_кава">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ягідне_пиво -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ягідне_пиво">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Як_вдома -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Як_вдома"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ящик_пива -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Ящик_пива">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#!FESTRepublic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#!FESTRepublic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#56_кранів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#56_кранів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Істина_в_мені_(наше_фірмове_вино) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Істина_в_мені_(наше_фірмове_вино)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Вино"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вечір_п&apos;ятниці -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вечір_п&apos;ятниці"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Востро_(наше_фірмове_пиво) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Востро_(наше_фірмове_пиво)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Голова_з_пліч_(наливка) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Голова_з_пліч_(наливка)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Наливки"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Де_поїсти_у_Львові? -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Де_поїсти_у_Львові?">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Львів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кав&apos;ярня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кав&apos;ярня">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Київські_львів&apos;яни -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Київські_львів&apos;яни"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Куди_піти_у_Львові? -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Куди_піти_у_Львові?">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Львів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Львівська_бізнес-школа_(ЛБШ) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Львівська_бізнес-школа_(ЛБШ)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Останнє_бажання_(фірмовий_гострий_соус) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Останнє_бажання_(фірмовий_гострий_соус)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#П&apos;яна_Вишня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#П&apos;яна_Вишня"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Справедливість_(фірмова_страва_на_компанію) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Справедливість_(фірмова_страва_на_компанію)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Томагавк_(концептуальний_стейк) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Томагавк_(концептуальний_стейк)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Мʼясо"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#УКУ_(Український_католицький_університет) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#УКУ_(Український_католицький_університет)"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
