@@ -242,8 +242,6 @@
     <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Балкон -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Балкон">
-        <rdfs:label xml:lang="en">Balcony</rdfs:label>
-        <rdfs:label xml:lang="uk">Балкон</rdfs:label>
     </owl:Class>
     
 
@@ -1215,7 +1213,6 @@
     <!-- http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Хліб -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Хліб">
-        <rdfs:label xml:lang="uk">Категорія_Хліб</rdfs:label>
     </owl:Class>
     
 
