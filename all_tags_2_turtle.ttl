@@ -14,101 +14,102 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/BBQ
 :BBQ rdf:type owl:Class ;
-     rdfs:subClassOf : Категорія_Мʼясо .
+     rdfs:subClassOf : Категорія_Мʼясо ;
      rdfs:label "BBQ"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Fest_tags
-:Fest_tags rdf:type owl:Class .
+:Fest_tags rdf:type owl:Class ;
      rdfs:label "Fest tags"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Finger_food
 :Finger_food rdf:type owl:Class ;
-             rdfs:subClassOf :Other .
+             rdfs:subClassOf :Other ;
              rdfs:label "Finger food"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Food_pairing
 :Food_pairing rdf:type owl:Class ;
-              rdfs:subClassOf :Other .
+              rdfs:subClassOf :Other ;
               rdfs:label "Food pairing"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Other
 :Other rdf:type owl:Class ;
-       rdfs:subClassOf :Fest_tags .
+       rdfs:subClassOf :Fest_tags ;
        rdfs:label "Other"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Pet-friendly
 :Pet-friendly rdf:type owl:Class ;
-              rdfs:subClassOf :Other .
-              rdfs:label "Pet friendly"@uk .
+              rdfs:subClassOf :Other ;
+              rdfs:label "Pet-friendly"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Pop-up
 :Pop-up rdf:type owl:Class ;
-        rdfs:subClassOf :Other .
+        rdfs:subClassOf :Other ;
+        rdfs:label "Pop-up"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/PravdaOrchestra
 :PravdaOrchestra rdf:type owl:Class ;
-                 rdfs:subClassOf :Категорія_Музика .
+                 rdfs:subClassOf :Категорія_Музика ;
                  rdfs:label "PravdaOrchestra"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Untappd
 :Untappd rdf:type owl:Class ;
-         rdfs:subClassOf :Other .
+         rdfs:subClassOf :Other ;
          rdfs:label "Untappd"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Європейська_кухня
 :Європейська_кухня rdf:type owl:Class ;
-                   rdfs:subClassOf :Other .
+                   rdfs:subClassOf :Other ;
                    rdfs:label "Європейська кухня"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Івент_хол
 :Івент_хол rdf:type owl:Class ;
-           rdfs:subClassOf :Other .
+           rdfs:subClassOf :Other ;
            rdfs:label "Івент хол"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Івенти
 :Івенти rdf:type owl:Class ;
-        rdfs:subClassOf :Other .
+        rdfs:subClassOf :Other ;
         rdfs:label "Івенти"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Ідеологія
 :Ідеологія rdf:type owl:Class ;
-           rdfs:subClassOf : Other .
+           rdfs:subClassOf : Other ;
            rdfs:label "Ідеологія"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Імпортне_пиво
 :Імпортне_пиво rdf:type owl:Class ;
-               rdfs:subClassOf :Категорія_Пиво .
+               rdfs:subClassOf :Категорія_Пиво ;
                rdfs:label "Імпортне пиво"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Індивідуальний_підхід
 :Індивідуальний_підхід rdf:type owl:Class ;
-                       rdfs:subClassOf :Other .
+                       rdfs:subClassOf :Other ;
                        rdfs:label "Індивідуальний підхід"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Іриска
 :Іриска rdf:type owl:Class ;
-        rdfs:subClassOf :Категорія_Десерти .
+        rdfs:subClassOf :Категорія_Десерти ;
         rdfs:label "Іриска"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Іспанський_чобіт
 :Іспанський_чобіт rdf:type owl:Class ;
-                  rdfs:subClassOf :Other .
+                  rdfs:subClassOf :Other ;
                   rdfs:label "Іспанський чобіт"@uk .
 
 
