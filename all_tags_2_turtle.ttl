@@ -1,0 +1,2398 @@
+@prefix : <http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/> .
+
+<http://www.semanticweb.org/linndfors/ontologies/all_tags_2> rdf:type owl:Ontology .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/BBQ
+:BBQ rdf:type owl:Class ;
+     rdfs:subClassOf :Категорія_Мʼясо .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Fest_tags
+:Fest_tags rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Finger_food
+:Finger_food rdf:type owl:Class ;
+             rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Food_pairing
+:Food_pairing rdf:type owl:Class ;
+              rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Other
+:Other rdf:type owl:Class ;
+       rdfs:subClassOf :Fest_tags .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Pet-friendly
+:Pet-friendly rdf:type owl:Class ;
+              rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Pop-up
+:Pop-up rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/PravdaOrchestra
+:PravdaOrchestra rdf:type owl:Class ;
+                 rdfs:subClassOf :Категорія_Музика .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Untappd
+:Untappd rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Європейська_кухня
+:Європейська_кухня rdf:type owl:Class ;
+                   rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Івент_хол
+:Івент_хол rdf:type owl:Class ;
+           rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Івенти
+:Івенти rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Ідеологія
+:Ідеологія rdf:type owl:Class ;
+           rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Імпортне_пиво
+:Імпортне_пиво rdf:type owl:Class ;
+               rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Індивідуальний_підхід
+:Індивідуальний_підхід rdf:type owl:Class ;
+                       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Іриска
+:Іриска rdf:type owl:Class ;
+        rdfs:subClassOf :Категорія_Десерти .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Іспанський_чобіт
+:Іспанський_чобіт rdf:type owl:Class ;
+                  rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Історія
+:Історія rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Історія_міста
+:Історія_міста rdf:type owl:Class ;
+               rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Їдальня
+:Їдальня rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Автентичні_страви
+:Автентичні_страви rdf:type owl:Class ;
+                   rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Авторська_продукція
+:Авторська_продукція rdf:type owl:Class ;
+                     rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Авторські_коктейлі
+:Авторські_коктейлі rdf:type owl:Class ;
+                    rdfs:subClassOf :Категорія_Коктейлі .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Акція
+:Акція rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Алкоголь
+:Алкоголь rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Алкогольні_молочні_коктейлі
+:Алкогольні_молочні_коктейлі rdf:type owl:Class ;
+                             rdfs:subClassOf :Категорія_Коктейлі .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Алхімія
+:Алхімія rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Альтернатива
+:Альтернатива rdf:type owl:Class ;
+              rdfs:subClassOf :Категорія_Кава .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Арабіка
+:Арабіка rdf:type owl:Class ;
+         rdfs:subClassOf :Категорія_Кава .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Артплатформа
+:Артплатформа rdf:type owl:Class ;
+              rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Атмосфера
+:Атмосфера rdf:type owl:Class ;
+           rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Атмосферно
+:Атмосферно rdf:type owl:Class ;
+            rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Афродизіаки
+:Афродизіаки rdf:type owl:Class ;
+             rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Багато_пива
+:Багато_пива rdf:type owl:Class ;
+             rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Багет
+:Багет rdf:type owl:Class ;
+       rdfs:subClassOf :Категорія_Хліб .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Балкон
+:Балкон rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Бандера
+:Бандера rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Бандерівці
+:Бандерівці rdf:type owl:Class ;
+            rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Банкети
+:Банкети rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Бар
+:Бар rdf:type owl:Class ;
+     rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Бармени
+:Бармени rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Барна_тусовка
+:Барна_тусовка rdf:type owl:Class ;
+               rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Батіг
+:Батіг rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Безсоромна_пропозиція
+:Безсоромна_пропозиція rdf:type owl:Class ;
+                       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Бернардинський_дворик
+:Бернардинський_дворик rdf:type owl:Class ;
+                       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Благодійний_концерт
+:Благодійний_концерт rdf:type owl:Class ;
+                     rdfs:subClassOf :Категорія_Музика .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Бограч
+:Бограч rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Борошно
+:Борошно rdf:type owl:Class ;
+         rdfs:subClassOf :Категорія_Хліб .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Борщ
+:Борщ rdf:type owl:Class ;
+      rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Бочкове_пиво
+:Бочкове_пиво rdf:type owl:Class ;
+              rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Бронюй_номер
+:Бронюй_номер rdf:type owl:Class ;
+              rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Бункер
+:Бункер rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Біля_дому
+:Біля_дому rdf:type owl:Class ;
+           rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Біля_парку
+:Біля_парку rdf:type owl:Class ;
+            rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Ванна_в_номері
+:Ванна_в_номері rdf:type owl:Class ;
+                rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Вареники
+:Вареники rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Велике_лате
+:Велике_лате rdf:type owl:Class ;
+             rdfs:subClassOf :Категорія_Кава .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Великий_вибір_пива
+:Великий_вибір_пива rdf:type owl:Class ;
+                    rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Венера_в_хутрі
+:Венера_в_хутрі rdf:type owl:Class ;
+                rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Вечеря
+:Вечеря rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Вечір
+:Вечір rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Вечірка
+:Вечірка rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Вивід_москаля
+:Вивід_москаля rdf:type owl:Class ;
+               rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Вигляд_на_площу_Ринок
+:Вигляд_на_площу_Ринок rdf:type owl:Class ;
+                       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Вигляд_на_ратушу
+:Вигляд_на_ратушу rdf:type owl:Class ;
+                  rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Вид
+:Вид rdf:type owl:Class ;
+     rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Вид_на_Площу_Ринок
+:Вид_на_Площу_Ринок rdf:type owl:Class ;
+                    rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Винна_мапа
+:Винна_мапа rdf:type owl:Class ;
+            rdfs:subClassOf :Категорія_Вино .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Вино
+:Вино rdf:type owl:Class ;
+      rdfs:subClassOf :Категорія_Вино .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Випічка
+:Випічка rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Виставка
+:Виставка rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Вихідні_у_Львові
+:Вихідні_у_Львові rdf:type owl:Class ;
+                  rdfs:subClassOf :Категорія_Львів .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Вишня
+:Вишня rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Вишнівка
+:Вишнівка rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Вишнівка_в_мандрівку
+:Вишнівка_в_мандрівку rdf:type owl:Class ;
+                      rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Виїздні_дегустації_вина
+:Виїздні_дегустації_вина rdf:type owl:Class ;
+                         rdfs:subClassOf :Категорія_Вино .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Власний_оркестр
+:Власний_оркестр rdf:type owl:Class ;
+                 rdfs:subClassOf :Категорія_Музика .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Вогень
+:Вогень rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Вогонь
+:Вогонь rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Володарка
+:Володарка rdf:type owl:Class ;
+           rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Відкривачки
+:Відкривачки rdf:type owl:Class ;
+             rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Відкрита_кухня
+:Відкрита_кухня rdf:type owl:Class ;
+                rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Відпочинок
+:Відпочинок rdf:type owl:Class ;
+            rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Відро_пива
+:Відро_пива rdf:type owl:Class ;
+            rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Вікенд_Львів
+:Вікенд_Львів rdf:type owl:Class ;
+              rdfs:subClassOf :Категорія_Львів .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Вініл
+:Вініл rdf:type owl:Class ;
+       rdfs:subClassOf :Категорія_Музика .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Галерея
+:Галерея rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Галицька_Алхімія
+:Галицька_Алхімія rdf:type owl:Class ;
+                  rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Галицькі_рецепти
+:Галицькі_рецепти rdf:type owl:Class ;
+                  rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Гарно_проведений_час
+:Гарно_проведений_час rdf:type owl:Class ;
+                      rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Гарячі_напої
+:Гарячі_напої rdf:type owl:Class ;
+              rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Гас
+:Гас rdf:type owl:Class ;
+     rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Гастровечори
+:Гастровечори rdf:type owl:Class ;
+              rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Гастрономічна_атракція
+:Гастрономічна_атракція rdf:type owl:Class ;
+                        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Гендер_паті
+:Гендер_паті rdf:type owl:Class ;
+             rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Годинники
+:Годинники rdf:type owl:Class ;
+           rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Гостро
+:Гостро rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Готель
+:Готель rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Графіка
+:Графіка rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Гуцули
+:Гуцули rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Гільзи
+:Гільзи rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Дворик
+:Дворик rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Двіж
+:Двіж rdf:type owl:Class ;
+      rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Де_відсвяткувати_день_народження
+:Де_відсвяткувати_день_народження rdf:type owl:Class ;
+                                  rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Дегустаційний_сет
+:Дегустаційний_сет rdf:type owl:Class ;
+                   rdfs:subClassOf :Категорія_Хліб .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Дегустація
+:Дегустація rdf:type owl:Class ;
+            rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Дегустації
+:Дегустації rdf:type owl:Class ;
+            rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Дегустації_вина
+:Дегустації_вина rdf:type owl:Class ;
+                 rdfs:subClassOf :Категорія_Вино .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/День_народження
+:День_народження rdf:type owl:Class ;
+                 rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Деруни
+:Деруни rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Десерти
+:Десерти rdf:type owl:Class ;
+         rdfs:subClassOf :Категорія_Десерти .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Десерти_з_собою
+:Десерти_з_собою rdf:type owl:Class ;
+                 rdfs:subClassOf :Категорія_Десерти .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Десь_на_площі_Ринок
+:Десь_на_площі_Ринок rdf:type owl:Class ;
+                     rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Джаз
+:Джаз rdf:type owl:Class ;
+      rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Джезва
+:Джезва rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Джерки
+:Джерки rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Дзеркала
+:Дзеркала rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Дзиґармайстер
+:Дзиґармайстер rdf:type owl:Class ;
+               rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Дива_музика
+:Дива_музика rdf:type owl:Class ;
+             rdfs:subClassOf :Категорія_Музика .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Дивізія_Галичина
+:Дивізія_Галичина rdf:type owl:Class ;
+                  rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Дитячий_майданчик
+:Дитячий_майданчик rdf:type owl:Class ;
+                   rdfs:subClassOf :Категорія_Майданчик .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Для_двох
+:Для_двох rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Для_закоханих
+:Для_закоханих rdf:type owl:Class ;
+               rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Для_компанії
+:Для_компанії rdf:type owl:Class ;
+              rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Для_спілкування
+:Для_спілкування rdf:type owl:Class ;
+                 rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/До_пива
+:До_пива rdf:type owl:Class ;
+         rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Домашнє_вино
+:Домашнє_вино rdf:type owl:Class ;
+              rdfs:subClassOf :Категорія_Вино .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Домашні_йогурти
+:Домашні_йогурти rdf:type owl:Class ;
+                 rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Доставка
+:Доставка rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Доставка_пива
+:Доставка_пива rdf:type owl:Class ;
+               rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Доставка_їжі
+:Доставка_їжі rdf:type owl:Class ;
+              rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Друзі
+:Друзі rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Дубові_Бочки
+:Дубові_Бочки rdf:type owl:Class ;
+              rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Діалог
+:Діалог rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Дівич_вечір
+:Дівич_вечір rdf:type owl:Class ;
+             rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Дівичі_вечори
+:Дівичі_вечори rdf:type owl:Class ;
+               rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Дід_на_вході
+:Дід_на_вході rdf:type owl:Class ;
+              rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Діти
+:Діти rdf:type owl:Class ;
+      rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Екскурсія_в_шахті
+:Екскурсія_в_шахті rdf:type owl:Class ;
+                   rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Експозиція
+:Експозиція rdf:type owl:Class ;
+            rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Емоції
+:Емоції rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Етно
+:Етно rdf:type owl:Class ;
+      rdfs:subClassOf :Категорія_Музика .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Жива_музика
+:Жива_музика rdf:type owl:Class ;
+             rdfs:subClassOf :Категорія_Музика .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Закриває_усі_потреби
+:Закриває_усі_потреби rdf:type owl:Class ;
+                      rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Закуски
+:Закуски rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Закуски_до_пива
+:Закуски_до_пива rdf:type owl:Class ;
+                 rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Зал_для_подій
+:Зал_для_подій rdf:type owl:Class ;
+               rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Запах
+:Запах rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Запаяна_кава
+:Запаяна_кава rdf:type owl:Class ;
+              rdfs:subClassOf :Категорія_Кава .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Затишний_дворик
+:Затишний_дворик rdf:type owl:Class ;
+                 rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Затишно
+:Затишно rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Затишні_зустрічі
+:Затишні_зустрічі rdf:type owl:Class ;
+                  rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Затишок
+:Затишок rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Захід_сонця
+:Захід_сонця rdf:type owl:Class ;
+             rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Зброя
+:Зброя rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Зенітка
+:Зенітка rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Зустріч
+:Зустріч rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Зігріваючі_коктейлі
+:Зігріваючі_коктейлі rdf:type owl:Class ;
+                     rdfs:subClassOf :Категорія_Коктейлі .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Зігріває
+:Зігріває rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Зілля
+:Зілля rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Кавʼярня
+:Кавʼярня rdf:type owl:Class ;
+          rdfs:subClassOf :Категорія_Кава .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Кава
+:Кава rdf:type owl:Class ;
+      rdfs:subClassOf :Категорія_Кава .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Кава_в_турці_Львів
+:Кава_в_турці_Львів rdf:type owl:Class ;
+                    rdfs:subClassOf :Категорія_Кава .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Кава_з_вогнем
+:Кава_з_вогнем rdf:type owl:Class ;
+               rdfs:subClassOf :Категорія_Кава .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Кава_на_подарунок
+:Кава_на_подарунок rdf:type owl:Class ;
+                   rdfs:subClassOf :Категорія_Кава .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Кавова_підписка
+:Кавова_підписка rdf:type owl:Class ;
+                 rdfs:subClassOf :Категорія_Кава .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Кавовий_шоколад
+:Кавовий_шоколад rdf:type owl:Class ;
+                 rdfs:subClassOf :Категорія_Кава .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Кавові
+:Кавові rdf:type owl:Class ;
+        rdfs:subClassOf :Категорія_Кава .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Канапки
+:Канапки rdf:type owl:Class ;
+         rdfs:subClassOf :Категорія_Хліб .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Капінг
+:Капінг rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Картини
+:Картини rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Карцер
+:Карцер rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Кат
+:Кат rdf:type owl:Class ;
+     rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Категорія_Вино
+:Категорія_Вино rdf:type owl:Class ;
+                rdfs:subClassOf :Fest_tags .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Категорія_Десерти
+:Категорія_Десерти rdf:type owl:Class ;
+                   rdfs:subClassOf :Fest_tags .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Категорія_Кава
+:Категорія_Кава rdf:type owl:Class ;
+                rdfs:subClassOf :Fest_tags ;
+                rdfs:label "Категорія Кава"@uk .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Категорія_Коктейлі
+:Категорія_Коктейлі rdf:type owl:Class ;
+                    rdfs:subClassOf :Fest_tags .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Категорія_Львів
+:Категорія_Львів rdf:type owl:Class ;
+                 rdfs:subClassOf :Fest_tags .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Категорія_Мʼясо
+:Категорія_Мʼясо rdf:type owl:Class ;
+                 rdfs:subClassOf :Fest_tags .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Категорія_Майданчик
+:Категорія_Майданчик rdf:type owl:Class ;
+                     rdfs:subClassOf :Fest_tags .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Категорія_Музика
+:Категорія_Музика rdf:type owl:Class ;
+                  rdfs:subClassOf :Fest_tags .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Категорія_Наливки
+:Категорія_Наливки rdf:type owl:Class ;
+                   rdfs:subClassOf :Fest_tags .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Категорія_Пиво
+:Категорія_Пиво rdf:type owl:Class ;
+                rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Категорія_Сувеніри
+:Категорія_Сувеніри rdf:type owl:Class ;
+                    rdfs:subClassOf :Fest_tags .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Категорія_Хліб
+:Категорія_Хліб rdf:type owl:Class ;
+                rdfs:subClassOf :Fest_tags .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Кауфман
+:Кауфман rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Кафе
+:Кафе rdf:type owl:Class ;
+      rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Келихи
+:Келихи rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Келішок
+:Келішок rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Керосин
+:Керосин rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Кисле_пиво
+:Кисле_пиво rdf:type owl:Class ;
+            rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Київ
+:Київ rdf:type owl:Class ;
+      rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Клітка_боржника
+:Клітка_боржника rdf:type owl:Class ;
+                 rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Кнайпа
+:Кнайпа rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Коктейль
+:Коктейль rdf:type owl:Class ;
+          rdfs:subClassOf :Категорія_Коктейлі .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Коктейлі
+:Коктейлі rdf:type owl:Class ;
+          rdfs:subClassOf :Категорія_Коктейлі .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Колекція_вінілу
+:Колекція_вінілу rdf:type owl:Class ;
+                 rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Колекція_гострих_соусів
+:Колекція_гострих_соусів rdf:type owl:Class ;
+                         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Команда
+:Команда rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Компанії
+:Компанії rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Комплексні_обіди
+:Комплексні_обіди rdf:type owl:Class ;
+                  rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Комфорт
+:Комфорт rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Кондитерка
+:Кондитерка rdf:type owl:Class ;
+            rdfs:subClassOf :Категорія_Десерти .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Концептуальні
+:Концептуальні rdf:type owl:Class ;
+               rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Концептуалісти
+:Концептуалісти rdf:type owl:Class ;
+                rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Концепція
+:Концепція rdf:type owl:Class ;
+           rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Концерт
+:Концерт rdf:type owl:Class ;
+         rdfs:subClassOf :Категорія_Музика .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Концерти
+:Концерти rdf:type owl:Class ;
+          rdfs:subClassOf :Категорія_Музика .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Концерти_українських_гуртів
+:Концерти_українських_гуртів rdf:type owl:Class ;
+                             rdfs:subClassOf :Категорія_Музика .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Корпоратив
+:Корпоратив rdf:type owl:Class ;
+            rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Костери
+:Костери rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Крамниця
+:Крамниця rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Красиві_місця
+:Красиві_місця rdf:type owl:Class ;
+               rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Крафт
+:Крафт rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Крафтове_пиво
+:Крафтове_пиво rdf:type owl:Class ;
+               rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Куди_піти_Львів
+:Куди_піти_Львів rdf:type owl:Class ;
+                 rdfs:subClassOf :Категорія_Львів .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Культові_місця_Львова
+:Культові_місця_Львова rdf:type owl:Class ;
+                       rdfs:subClassOf :Категорія_Львів .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Культура_крафтового_пива
+:Культура_крафтового_пива rdf:type owl:Class ;
+                          rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Культурна_програма
+:Культурна_програма rdf:type owl:Class ;
+                    rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Кульчицький
+:Кульчицький rdf:type owl:Class ;
+             rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Купити_медовуху
+:Купити_медовуху rdf:type owl:Class ;
+                 rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Лампа
+:Лампа rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Легенда
+:Легенда rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Легенда_Львів
+:Легенда_Львів rdf:type owl:Class ;
+               rdfs:subClassOf :Категорія_Львів .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Легкість
+:Легкість rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Локальна_кухня
+:Локальна_кухня rdf:type owl:Class ;
+                rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Локальна_історія
+:Локальна_історія rdf:type owl:Class ;
+                  rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Локальні_пиоварні
+:Локальні_пиоварні rdf:type owl:Class ;
+                   rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Львів
+:Львів rdf:type owl:Class ;
+       rdfs:subClassOf :Категорія_Львів .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Львів_куди_піти
+:Львів_куди_піти rdf:type owl:Class ;
+                 rdfs:subClassOf :Категорія_Львів .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Львівська_кава
+:Львівська_кава rdf:type owl:Class ;
+                rdfs:subClassOf :Категорія_Кава .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Люстра
+:Люстра rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Лімітоване_пиво
+:Лімітоване_пиво rdf:type owl:Class ;
+                 rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Літературно
+:Літературно rdf:type owl:Class ;
+             rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Літній_майданчик
+:Літній_майданчик rdf:type owl:Class ;
+                  rdfs:subClassOf :Категорія_Майданчик .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Ліхтарі
+:Ліхтарі rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Мʼясні
+:Мʼясні rdf:type owl:Class ;
+        rdfs:subClassOf :Категорія_Мʼясо .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Мʼясо
+:Мʼясо rdf:type owl:Class ;
+       rdfs:subClassOf :Категорія_Мʼясо .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Мʼясо_на_відкритому_вогні
+:Мʼясо_на_відкритому_вогні rdf:type owl:Class ;
+                           rdfs:subClassOf :Категорія_Мʼясо .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Магазин
+:Магазин rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Магазин_вина
+:Магазин_вина rdf:type owl:Class ;
+              rdfs:subClassOf :Категорія_Вино .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Мазох
+:Мазох rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Майданчик
+:Майданчик rdf:type owl:Class ;
+           rdfs:subClassOf :Категорія_Майданчик .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Майданчик_Львів
+:Майданчик_Львів rdf:type owl:Class ;
+                 rdfs:subClassOf :Категорія_Львів ,
+                                 :Категорія_Майданчик .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Майданчик_з_видом_на_озеро
+:Майданчик_з_видом_на_озеро rdf:type owl:Class ;
+                            rdfs:subClassOf :Категорія_Майданчик .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Майстерка
+:Майстерка rdf:type owl:Class ;
+           rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Малювання
+:Малювання rdf:type owl:Class ;
+           rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Мангал
+:Мангал rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Маска_ганьби
+:Маска_ганьби rdf:type owl:Class ;
+              rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Медовуха
+:Медовуха rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Мережа_закладів
+:Мережа_закладів rdf:type owl:Class ;
+                 rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Ми_просто_хочемо_випити
+:Ми_просто_хочемо_випити rdf:type owl:Class ;
+                         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Мистецтво
+:Мистецтво rdf:type owl:Class ;
+           rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Можна_з_дітьми
+:Можна_з_дітьми rdf:type owl:Class ;
+                rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Можна_з_тваринами
+:Можна_з_тваринами rdf:type owl:Class ;
+                   rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Молочні
+:Молочні rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Молочні_коктейлі
+:Молочні_коктейлі rdf:type owl:Class ;
+                  rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Москалодетектор
+:Москалодетектор rdf:type owl:Class ;
+                 rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Москалі
+:Москалі rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Мотоцикл
+:Мотоцикл rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Мужик_з_автоматом
+:Мужик_з_автоматом rdf:type owl:Class ;
+                   rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Мужик_на_вході
+:Мужик_на_вході rdf:type owl:Class ;
+                rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Музей
+:Музей rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Музика
+:Музика rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Музиканти
+:Музиканти rdf:type owl:Class ;
+           rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Мікро-паб
+:Мікро-паб rdf:type owl:Class ;
+           rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Місце_для_святкування
+:Місце_для_святкування rdf:type owl:Class ;
+                       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/На_вид
+:На_вид rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/На_вино_з_собою
+:На_вино_з_собою rdf:type owl:Class ;
+                 rdfs:subClassOf :Категорія_Вино .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/На_каву
+:На_каву rdf:type owl:Class ;
+         rdfs:subClassOf :Категорія_Кава .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/На_каву_з_десертом
+:На_каву_з_десертом rdf:type owl:Class ;
+                    rdfs:subClassOf :Категорія_Кава .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/На_районі
+:На_районі rdf:type owl:Class ;
+           rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Навчання
+:Навчання rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Наган
+:Наган rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Нагороди
+:Нагороди rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Найбільший_вибір_крафтового_пива
+:Найбільший_вибір_крафтового_пива rdf:type owl:Class ;
+                                  rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Найсмачніші_ребра
+:Найсмачніші_ребра rdf:type owl:Class ;
+                   rdfs:subClassOf :Категорія_Мʼясо .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Наливають_на_вході
+:Наливають_на_вході rdf:type owl:Class ;
+                    rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Наливки
+:Наливки rdf:type owl:Class ;
+         rdfs:subClassOf :Категорія_Наливки .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Намазанки
+:Намазанки rdf:type owl:Class ;
+           rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Напої
+:Напої rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Насолода
+:Насолода rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Настоянка
+:Настоянка rdf:type owl:Class ;
+           rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Настоянки
+:Настоянки rdf:type owl:Class ;
+           rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Настрій
+:Настрій rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Натуральний_продукт
+:Натуральний_продукт rdf:type owl:Class ;
+                     rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Нафта
+:Нафта rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Ніч_в_Мазоху
+:Ніч_в_Мазоху rdf:type owl:Class ;
+              rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Обсмажка
+:Обсмажка rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Обід
+:Обід rdf:type owl:Class ;
+      rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Оглядовий_майданчик
+:Оглядовий_майданчик rdf:type owl:Class ;
+                     rdfs:subClassOf :Категорія_Майданчик .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Одеса
+:Одеса rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Одяг
+:Одяг rdf:type owl:Class ;
+      rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Оркестр
+:Оркестр rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Освідчення
+:Освідчення rdf:type owl:Class ;
+            rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Особливе_пиво
+:Особливе_пиво rdf:type owl:Class ;
+               rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Паб
+:Паб rdf:type owl:Class ;
+     rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Паб_в_центрі_міста
+:Паб_в_центрі_міста rdf:type owl:Class ;
+                    rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Паляниця
+:Паляниця rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Пан_малодобрий
+:Пан_малодобрий rdf:type owl:Class ;
+                rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Панорама
+:Панорама rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Патріотичні_сувеніри
+:Патріотичні_сувеніри rdf:type owl:Class ;
+                      rdfs:subClassOf :Категорія_Сувеніри .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Пекарня
+:Пекарня rdf:type owl:Class ;
+         rdfs:subClassOf :Категорія_Десерти .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Перекуси
+:Перекуси rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Перформанс
+:Перформанс rdf:type owl:Class ;
+            rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Перші_страви
+:Перші_страви rdf:type owl:Class ;
+              rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Пивний_магазин
+:Пивний_магазин rdf:type owl:Class ;
+                rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Пивний_паб
+:Пивний_паб rdf:type owl:Class ;
+            rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Пивні_десерти
+:Пивні_десерти rdf:type owl:Class ;
+               rdfs:subClassOf :Категорія_Десерти ,
+                               :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Пивні_набори
+:Пивні_набори rdf:type owl:Class ;
+              rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Пивні_фестивалі
+:Пивні_фестивалі rdf:type owl:Class ;
+                 rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Пиво
+:Пиво rdf:type owl:Class ;
+      rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Пиво_в_банці
+:Пиво_в_банці rdf:type owl:Class ;
+              rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Пиво_з_собою
+:Пиво_з_собою rdf:type owl:Class ;
+              rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Пиво_зі_всієї_України
+:Пиво_зі_всієї_України rdf:type owl:Class ;
+                       rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Пиво_на_Розлив
+:Пиво_на_Розлив rdf:type owl:Class ;
+                rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Пиво_на_районі
+:Пиво_на_районі rdf:type owl:Class ;
+                rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Пиво_і_спорт_сумісні
+:Пиво_і_спорт_сумісні rdf:type owl:Class ;
+                      rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Площа_Ринок
+:Площа_Ринок rdf:type owl:Class ;
+             rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Площа_Ринок_Львів
+:Площа_Ринок_Львів rdf:type owl:Class ;
+                   rdfs:subClassOf :Категорія_Львів .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Пляшкове_пиво
+:Пляшкове_пиво rdf:type owl:Class ;
+               rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/По-східному
+:По-східному rdf:type owl:Class ;
+             rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Побачення
+:Побачення rdf:type owl:Class ;
+           rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Подарунок
+:Подарунок rdf:type owl:Class ;
+           rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Подарунок_з_перчинкою
+:Подарунок_з_перчинкою rdf:type owl:Class ;
+                       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Подкаст
+:Подкаст rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Події
+:Події rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Поливки
+:Поливки rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Популярне_пиво
+:Популярне_пиво rdf:type owl:Class ;
+                rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Посвідки
+:Посвідки rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Посиденьки_з_друзями
+:Посиденьки_з_друзями rdf:type owl:Class ;
+                      rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Правдиве_пиво
+:Правдиве_пиво rdf:type owl:Class ;
+               rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Презентація_пива
+:Презентація_пива rdf:type owl:Class ;
+                  rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Пристрасть
+:Пристрасть rdf:type owl:Class ;
+            rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Пробірки
+:Пробірки rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Простір
+:Простір rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Пструг
+:Пструг rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Путін_хуйло
+:Путін_хуйло rdf:type owl:Class ;
+             rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Півметра_ковбаси
+:Півметра_ковбаси rdf:type owl:Class ;
+                  rdfs:subClassOf :Категорія_Мʼясо .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Підкаст
+:Підкаст rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Пікніки
+:Пікніки rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Пілземелля
+:Пілземелля rdf:type owl:Class ;
+            rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Район
+:Район rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Ранок
+:Ранок rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Ребра
+:Ребра rdf:type owl:Class ;
+       rdfs:subClassOf :Категорія_Мʼясо .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/РезерваціяЛьвів
+:РезерваціяЛьвів rdf:type owl:Class ;
+                 rdfs:subClassOf :Категорія_Львів .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Ресторан
+:Ресторан rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Ресторан_в_підвалі
+:Ресторан_в_підвалі rdf:type owl:Class ;
+                    rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Ресторація
+:Ресторація rdf:type owl:Class ;
+            rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Риба
+:Риба rdf:type owl:Class ;
+      rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Рибні
+:Рибні rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Робота
+:Робота rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Розливне_пиво
+:Розливне_пиво rdf:type owl:Class ;
+               rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Розпуста
+:Розпуста rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Рок
+:Рок rdf:type owl:Class ;
+     rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Романтичне_місце
+:Романтичне_місце rdf:type owl:Class ;
+                  rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сад_на_даху
+:Сад_на_даху rdf:type owl:Class ;
+             rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сало
+:Сало rdf:type owl:Class ;
+      rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Саловий_шоколад
+:Саловий_шоколад rdf:type owl:Class ;
+                 rdfs:subClassOf :Категорія_Десерти .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Святкування
+:Святкування rdf:type owl:Class ;
+             rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Святкування_дня_народження
+:Святкування_дня_народження rdf:type owl:Class ;
+                            rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Свято
+:Свято rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Світле_пиво
+:Світле_пиво rdf:type owl:Class ;
+             rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сертифікат
+:Сертифікат rdf:type owl:Class ;
+            rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сет_наливок
+:Сет_наливок rdf:type owl:Class ;
+             rdfs:subClassOf :Категорія_Наливки .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сет_настоянок
+:Сет_настоянок rdf:type owl:Class ;
+               rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сирник
+:Сирник rdf:type owl:Class ;
+        rdfs:subClassOf :Категорія_Десерти .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сирні_наїдки
+:Сирні_наїдки rdf:type owl:Class ;
+              rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Скульптура
+:Скульптура rdf:type owl:Class ;
+            rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Смажене
+:Смажене rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Смак_дитинства
+:Смак_дитинства rdf:type owl:Class ;
+                rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Смаколики
+:Смаколики rdf:type owl:Class ;
+           rdfs:subClassOf :Категорія_Десерти .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Смачна_їжа
+:Смачна_їжа rdf:type owl:Class ;
+            rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сніданки_в_готелі
+:Сніданки_в_готелі rdf:type owl:Class ;
+                   rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сніданки_весь_день
+:Сніданки_весь_день rdf:type owl:Class ;
+                    rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сніданкові_таці
+:Сніданкові_таці rdf:type owl:Class ;
+                 rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сніданок
+:Сніданок rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сніданок_цілий_день
+:Сніданок_цілий_день rdf:type owl:Class ;
+                     rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Солера
+:Солера rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Солодке
+:Солодке rdf:type owl:Class ;
+         rdfs:subClassOf :Категорія_Десерти .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Солодкий_сирок
+:Солодкий_сирок rdf:type owl:Class ;
+                rdfs:subClassOf :Категорія_Десерти .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Солодкі
+:Солодкі rdf:type owl:Class ;
+         rdfs:subClassOf :Категорія_Десерти .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сомельє
+:Сомельє rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Спекотно
+:Спекотно rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Спеціальні_коктейлі
+:Спеціальні_коктейлі rdf:type owl:Class ;
+                     rdfs:subClassOf :Категорія_Коктейлі .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Спокуса
+:Спокуса rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Спокій
+:Спокій rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Справжнє_молоко
+:Справжнє_молоко rdf:type owl:Class ;
+                 rdfs:subClassOf :Категорія_Кава .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Спік_ізі_ресторан
+:Спік_ізі_ресторан rdf:type owl:Class ;
+                   rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Стейк
+:Стейк rdf:type owl:Class ;
+       rdfs:subClassOf :Категорія_Мʼясо .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Стейк_мясника
+:Стейк_мясника rdf:type owl:Class ;
+               rdfs:subClassOf :Категорія_Мʼясо .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Стейк_хаус
+:Стейк_хаус rdf:type owl:Class ;
+            rdfs:subClassOf :Категорія_Мʼясо .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Стеля_з_пляшок
+:Стеля_з_пляшок rdf:type owl:Class ;
+                rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Стендап
+:Стендап rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Столики_-_підвіконники
+:Столики_-_підвіконники rdf:type owl:Class ;
+                        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Страви_з_вогню
+:Страви_з_вогню rdf:type owl:Class ;
+                rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Стрейчінг
+:Стрейчінг rdf:type owl:Class ;
+           rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Стрийський_парк
+:Стрийський_парк rdf:type owl:Class ;
+                 rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Студенти
+:Студенти rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Студентська_їдальня
+:Студентська_їдальня rdf:type owl:Class ;
+                     rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Стілень_мойсея
+:Стілень_мойсея rdf:type owl:Class ;
+                rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сувеніри
+:Сувеніри rdf:type owl:Class ;
+          rdfs:subClassOf :Категорія_Сувеніри .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сувеніри_зі_Львова
+:Сувеніри_зі_Львова rdf:type owl:Class ;
+                    rdfs:subClassOf :Категорія_Львів ,
+                                    :Категорія_Сувеніри .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сувенірна_крамниця
+:Сувенірна_крамниця rdf:type owl:Class ;
+                    rdfs:subClassOf :Категорія_Сувеніри .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сусіди
+:Сусіди rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сцена
+:Сцена rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сімейний
+:Сімейний rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сімейні
+:Сімейні rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Та_сама_Реберня
+:Та_сама_Реберня rdf:type owl:Class ;
+                 rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Театр_пива
+:Театр_пива rdf:type owl:Class ;
+            rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Темне_пиво
+:Темне_пиво rdf:type owl:Class ;
+            rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Тепло
+:Тепло rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Теплі_зустрічі
+:Теплі_зустрічі rdf:type owl:Class ;
+                rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Тераса
+:Тераса rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Тир
+:Тир rdf:type owl:Class ;
+     rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Трансляція_матчів
+:Трансляція_матчів rdf:type owl:Class ;
+                   rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Трапезна
+:Трапезна rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Трубочка_зі_згущиком
+:Трубочка_зі_згущиком rdf:type owl:Class ;
+                      rdfs:subClassOf :Категорія_Десерти .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Туристи
+:Туристи rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Ті_самі_Ребра
+:Ті_самі_Ребра rdf:type owl:Class ;
+               rdfs:subClassOf :Категорія_Мʼясо .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/УПА
+:УПА rdf:type owl:Class ;
+     rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Українські_страви
+:Українські_страви rdf:type owl:Class ;
+                   rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Унікальність
+:Унікальність rdf:type owl:Class ;
+              rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Фантазії
+:Фантазії rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Фермерське_морозиво
+:Фермерське_морозиво rdf:type owl:Class ;
+                     rdfs:subClassOf :Категорія_Десерти .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Фермерські
+:Фермерські rdf:type owl:Class ;
+            rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Флогер
+:Флогер rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Фольк
+:Фольк rdf:type owl:Class ;
+       rdfs:subClassOf :Категорія_Музика .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Фондю
+:Фондю rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Форель
+:Форель rdf:type owl:Class ;
+        rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Фруктове_пиво
+:Фруктове_пиво rdf:type owl:Class ;
+               rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Фуршети
+:Фуршети rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Футболки
+:Футболки rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Футболки_з_Бандерою
+:Футболки_з_Бандерою rdf:type owl:Class ;
+                     rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Фільтр
+:Фільтр rdf:type owl:Class ;
+        rdfs:subClassOf :Категорія_Кава .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Фірмове_пиво
+:Фірмове_пиво rdf:type owl:Class ;
+              rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Фірмові_Ребра
+:Фірмові_Ребра rdf:type owl:Class ;
+               rdfs:subClassOf :Категорія_Мʼясо .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Хліб
+:Хліб rdf:type owl:Class ;
+      rdfs:subClassOf :Категорія_Хліб .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Хміль
+:Хміль rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Хріновуха
+:Хріновуха rdf:type owl:Class ;
+           rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Хімічний_дослід
+:Хімічний_дослід rdf:type owl:Class ;
+                 rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Це_просто_Вогень
+:Це_просто_Вогень rdf:type owl:Class ;
+                  rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Центр
+:Центр rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Церемонія
+:Церемонія rdf:type owl:Class ;
+           rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Ціни_з_нулем
+:Ціни_з_нулем rdf:type owl:Class ;
+              rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Червона_рута
+:Червона_рута rdf:type owl:Class ;
+              rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Черга
+:Черга rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Шашлик
+:Шашлик rdf:type owl:Class ;
+        rdfs:subClassOf :Категорія_Мʼясо .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Швидке_харчування
+:Швидке_харчування rdf:type owl:Class ;
+                   rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Шеврони
+:Шеврони rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Шкіра
+:Шкіра rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Шкіряні_аксесуари
+:Шкіряні_аксесуари rdf:type owl:Class ;
+                   rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Шмагання
+:Шмагання rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Шмайсер
+:Шмайсер rdf:type owl:Class ;
+         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Штрудель
+:Штрудель rdf:type owl:Class ;
+          rdfs:subClassOf :Категорія_Десерти .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Шумно
+:Шумно rdf:type owl:Class ;
+       rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Щойнообсмажена_кава
+:Щойнообсмажена_кава rdf:type owl:Class ;
+                     rdfs:subClassOf :Категорія_Кава .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Ягідне_пиво
+:Ягідне_пиво rdf:type owl:Class ;
+             rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Як_вдома
+:Як_вдома rdf:type owl:Class ;
+          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Ящик_пива
+:Ящик_пива rdf:type owl:Class ;
+           rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#!FESTRepublic
+<http://www.semanticweb.org/linndfors/ontologies/all_tags_2#!FESTRepublic> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#56_кранів
+<http://www.semanticweb.org/linndfors/ontologies/all_tags_2#56_кранів> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Істина_в_мені_(наше_фірмове_вино)
+<http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Істина_в_мені_(наше_фірмове_вино)> rdf:type owl:Class ;
+                                                                                               rdfs:subClassOf :Категорія_Вино .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вечір_п'ятниці
+<http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вечір_п'ятниці> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Востро_(наше_фірмове_пиво)
+<http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Востро_(наше_фірмове_пиво)> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf :Категорія_Пиво .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Голова_з_пліч_(наливка)
+<http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Голова_з_пліч_(наливка)> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf :Категорія_Наливки .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Де_поїсти_у_Львові?
+<http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Де_поїсти_у_Львові?> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf :Категорія_Львів .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кав'ярня
+<http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Кав'ярня> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf :Категорія_Кава .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Київські_львів'яни
+<http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Київські_львів'яни> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Куди_піти_у_Львові?
+<http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Куди_піти_у_Львові?> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf :Категорія_Львів .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Львівська_бізнес-школа_(ЛБШ)
+<http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Львівська_бізнес-школа_(ЛБШ)> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Останнє_бажання_(фірмовий_гострий_соус)
+<http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Останнє_бажання_(фірмовий_гострий_соус)> rdf:type owl:Class ;
+                                                                                                     rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#П'яна_Вишня
+<http://www.semanticweb.org/linndfors/ontologies/all_tags_2#П'яна_Вишня> rdf:type owl:Class ;
+                                                                         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Справедливість_(фірмова_страва_на_компанію)
+<http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Справедливість_(фірмова_страва_на_компанію)> rdf:type owl:Class ;
+                                                                                                         rdfs:subClassOf :Other .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Томагавк_(концептуальний_стейк)
+<http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Томагавк_(концептуальний_стейк)> rdf:type owl:Class ;
+                                                                                             rdfs:subClassOf :Категорія_Мʼясо .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#УКУ_(Український_католицький_університет)
+<http://www.semanticweb.org/linndfors/ontologies/all_tags_2#УКУ_(Український_католицький_університет)> rdf:type owl:Class ;
+                                                                                                       rdfs:subClassOf :Other .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
