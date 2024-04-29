@@ -1,0 +1,375 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/linndfors/ontologies/2024/0/untitled-ontology-31/"
+     xml:base="http://www.semanticweb.org/linndfors/ontologies/2024/0/untitled-ontology-31/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/linndfors/ontologies/market"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#has"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#include -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#include"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#made_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#made_of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#provide -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#provide"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#age -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#age"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#amount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#amount"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#sex -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#sex"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Address -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Address">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Behavior"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Client -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Client">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Behavior"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Interests"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Relationship_Status"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#age"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#sex"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Client_Profiles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Client_Profiles">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Office_Workers"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Students"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#made_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Client"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#amount"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Competition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Competition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Trend"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Competitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Competitor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Global_Market_Entry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Global_Market_Entry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Goal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Goal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Goal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Goods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Goods"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Inflation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Inflation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Trend"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Interests -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Interests"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Location_Profile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Location_Profile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Market -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Market">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Market_Participant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Trend"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Market_Participant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Market_Participant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Client_Profiles"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Competitor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Organization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Partners"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Suppliers"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Office_Workers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Office_Workers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Organization">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Goal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#provide"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Goods"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Partners -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Partners"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Product">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Goods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Product_differentiation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Product_differentiation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Goal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Relationship_Status -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Relationship_Status"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/market#Goods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Students -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Students"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Suppliers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Suppliers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/market#Trend -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/market#Trend"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

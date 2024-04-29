@@ -1,0 +1,422 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81/"
+     xml:base="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/linndfors/ontologies/skills_for_employees"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#has_skill -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#has_skill">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Асистент_менеджера"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Менеджер"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Наставник"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Відкритість"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Командність"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Організація_роботи"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Проактивність"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Результативність"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Рішучість"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Employee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Employee"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Skill -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Skill"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Асистент_менеджера -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Асистент_менеджера">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Employee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#has_skill"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Вплив_та_мотивація"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Бізнес -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Бізнес">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Skill"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Вплив_та_мотивація -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Вплив_та_мотивація">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Skill"/>
+        <rdfs:label>Вплив та мотивація</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Відкритість -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Відкритість">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Skill"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Відповідальність -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Відповідальність">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Skill"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Командність -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Командність">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Skill"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Люди -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Люди">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Skill"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Менеджер -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Менеджер">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Employee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#has_skill"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Бізнес"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#has_skill"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Люди"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Наставник -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Наставник">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Employee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#has_skill"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Відповідальність"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Організація_роботи -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Організація_роботи">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Skill"/>
+        <rdfs:label>Організація роботи</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Проактивність -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Проактивність">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Skill"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Результативність -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Результативність">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Skill"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Рішучість -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Рішучість">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Skill"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*аналізуєш_тенденції_і_напрямки_розвитку_ресторанної_сфери_та_конкуренцію_й_вчасно_реагуєш_на_зміни -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*аналізуєш_тенденції_і_напрямки_розвитку_ресторанної_сфери_та_конкуренцію_й_вчасно_реагуєш_на_зміни">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Проактивність"/>
+        <rdfs:label>*аналізуєш тенденції і напрямки розвитку ресторанної сфери та конкуренцію й вчасно реагуєш на зміни</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*аргументовано_й_конструктивно__відстоюєш__свою_позицію/переконання/рішення_у_робочих_обговореннях_чи_ситуаціях; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*аргументовано_й_конструктивно__відстоюєш__свою_позицію/переконання/рішення_у_робочих_обговореннях_чи_ситуаціях;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Відкритість"/>
+        <rdfs:label>*аргументовано й конструктивно  відстоюєш  свою позицію/переконання/рішення у робочих обговореннях чи ситуаціях;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*виходиш_за_межі_обов&apos;язкових_завдань_та_звичних_рішень,_шукаєш_та_реалізовуєл_нові_можливості_для_покращення_процесів,_оптимізації_роботи_й_підвищення_ефективності_закладу; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*виходиш_за_межі_обов&apos;язкових_завдань_та_звичних_рішень,_шукаєш_та_реалізовуєл_нові_можливості_для_покращення_процесів,_оптимізації_роботи_й_підвищення_ефективності_закладу;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Проактивність"/>
+        <rdfs:label>*виходиш за межі обов&apos;язкових завдань та звичних рішень, шукаєш та реалізовуєл нові можливості для покращення процесів, оптимізації роботи й підвищення ефективності закладу;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*виявляєш_впевненість_та_рішучість_у_виконанні_власних_рішень,_дотискаєш_реалізацію_задачі; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*виявляєш_впевненість_та_рішучість_у_виконанні_власних_рішень,_дотискаєш_реалізацію_задачі;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Рішучість"/>
+        <rdfs:label>*виявляєш впевненість та рішучість у виконанні власних рішень, дотискаєш реалізацію задачі;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*дбаєш_про_працівників;_об&apos;єднуєш_команду_(як_лінійних_працівників_так_і_управлінську_команду)_навколо_спільних_цілей_та_завдань,_враховуєш_особливості_та_потреби_кожного; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*дбаєш_про_працівників;_об&apos;єднуєш_команду_(як_лінійних_працівників_так_і_управлінську_команду)_навколо_спільних_цілей_та_завдань,_враховуєш_особливості_та_потреби_кожного;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Командність"/>
+        <rdfs:label>*дбаєш про працівників; об&apos;єднуєш команду (як лінійних працівників так і управлінську команду) навколо спільних цілей та завдань, враховуєш особливості та потреби кожного;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*ефективно_організовуєш_робочі_процеси_й_координуєш_дії_працівників_для_досягнення_спільних_цілей,_орієнтуючиьс_на_можливості_працівників_та_потреби_гостей; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*ефективно_організовуєш_робочі_процеси_й_координуєш_дії_працівників_для_досягнення_спільних_цілей,_орієнтуючиьс_на_можливості_працівників_та_потреби_гостей;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Організація_роботи"/>
+        <rdfs:label>*ефективно організовуєш робочі процеси й координуєш дії працівників для досягнення спільних цілей, орієнтуючиьс на можливості працівників та потреби гостей;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*ефективно_плануєш_робочий_день,_розставляєш_пріоритети_в_роботі_й_дотримуєшся_дедлайнів,_орієнтуючись_на_потреби_гостей; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*ефективно_плануєш_робочий_день,_розставляєш_пріоритети_в_роботі_й_дотримуєшся_дедлайнів,_орієнтуючись_на_потреби_гостей;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Організація_роботи"/>
+        <rdfs:label>*ефективно плануєш робочий день, розставляєш пріоритети в роботі й дотримуєшся дедлайнів, орієнтуючись на потреби гостей;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*зосереджуєшся_на_досягненні_цілей_та_результатів,_а_не_лише_на_виконанні_завдань;__враховуєш_досвід_помилок;_береш_на_себе_відповідальність_за_результати_прийнятих_рішень_(не_перекладаючи_на_інших_працівників/обставини); -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*зосереджуєшся_на_досягненні_цілей_та_результатів,_а_не_лише_на_виконанні_завдань;__враховуєш_досвід_помилок;_береш_на_себе_відповідальність_за_результати_прийнятих_рішень_(не_перекладаючи_на_інших_працівників/обставини);">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Результативність"/>
+        <rdfs:label>*зосереджуєшся на досягненні цілей та результатів, а не лише на виконанні завдань;  враховуєш досвід помилок; береш на себе відповідальність за результати прийнятих рішень (не перекладаючи на інших працівників/обставини);</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*маєш_розуміння_власних_емоцій_та_як_ефективно_управляти_ними,_вмієш_залишатись_спокійним_та_збалансованим_у_стресових_ситуаціях;_Здатен_(-на)_відчувати_та_розуміти_емоції_інших_людей; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*маєш_розуміння_власних_емоцій_та_як_ефективно_управляти_ними,_вмієш_залишатись_спокійним_та_збалансованим_у_стресових_ситуаціях;_Здатен_(-на)_відчувати_та_розуміти_емоції_інших_людей;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Вплив_та_мотивація"/>
+        <rdfs:label>*маєш розуміння власних емоцій та як ефективно управляти ними, вмієш залишатись спокійним та збалансованим у стресових ситуаціях; Здатен (-на) відчувати та розуміти емоції інших людей;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*навчаєш_працівників;_надаєш_можливості_для_саморозвитку_та_росту_лідерських_якостей_працівників,_аналізуючи_та_враховуєш_їх_досвід/знання/вміння,_залучаєш_до_завдань_та_делегуєш_задачі_(дотримуючись_правил_делегування); -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*навчаєш_працівників;_надаєш_можливості_для_саморозвитку_та_росту_лідерських_якостей_працівників,_аналізуючи_та_враховуєш_їх_досвід/знання/вміння,_залучаєш_до_завдань_та_делегуєш_задачі_(дотримуючись_правил_делегування);">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Вплив_та_мотивація"/>
+        <rdfs:label>*навчаєш працівників; надаєш можливості для саморозвитку та росту лідерських якостей працівників, аналізуючи та враховуєш їх досвід/знання/вміння, залучаєш до завдань та делегуєш задачі (дотримуючись правил делегування);</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*надихаєш_команду_до_досягнення_результатів_та_розвитку,_враховуючи_специфіку_поколінь;_ефективно_застосовуєш_мотивуючі_інструменти_(в_тому_числі_опираючись_на_ваші_конкурентні_переваги_як_роботодавця_на_ринку_(як_всередині_Холдингу,_так_і_назовні) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*надихаєш_команду_до_досягнення_результатів_та_розвитку,_враховуючи_специфіку_поколінь;_ефективно_застосовуєш_мотивуючі_інструменти_(в_тому_числі_опираючись_на_ваші_конкурентні_переваги_як_роботодавця_на_ринку_(як_всередині_Холдингу,_так_і_назовні)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Вплив_та_мотивація"/>
+        <rdfs:label>*надихаєш команду до досягнення результатів та розвитку, враховуючи специфіку поколінь; ефективно застосовуєш мотивуючі інструменти (в тому числі опираючись на ваші конкурентні переваги як роботодавця на ринку (як всередині Холдингу, так і назовні)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*приймаєш_конструктивний_коригуючий_фідбек_від_менеджера,_відгук_від_колег_та_гостей._Готовий_(-ва)_активно_працювати_над_удосконаленням_на_основі_отриманого_фідбеку -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*приймаєш_конструктивний_коригуючий_фідбек_від_менеджера,_відгук_від_колег_та_гостей._Готовий_(-ва)_активно_працювати_над_удосконаленням_на_основі_отриманого_фідбеку">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Відкритість"/>
+        <rdfs:label>*приймаєш конструктивний коригуючий фідбек від менеджера, відгук від колег та гостей. Готовий (-ва) активно працювати над удосконаленням на основі отриманого фідбеку</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*приймаєш_рішення_в_умовах_невизначеності_та_швидкозмінності_обставин; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*приймаєш_рішення_в_умовах_невизначеності_та_швидкозмінності_обставин;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Рішучість"/>
+        <rdfs:label>*приймаєш рішення в умовах невизначеності та швидкозмінності обставин;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*розумієш_свої_завдання_та_цілі_й_визначаєш_шляхи_їх_виконання,_раціонально_використовуєш_ресурси_(людські,_фінансові_тощо); -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*розумієш_свої_завдання_та_цілі_й_визначаєш_шляхи_їх_виконання,_раціонально_використовуєш_ресурси_(людські,_фінансові_тощо);">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Організація_роботи"/>
+        <rdfs:label>*розумієш свої завдання та цілі й визначаєш шляхи їх виконання, раціонально використовуєш ресурси (людські, фінансові тощо);</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*справляєшся_з_управлінням_командою_у_складних_ситуаціях; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*справляєшся_з_управлінням_командою_у_складних_ситуаціях;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Рішучість"/>
+        <rdfs:label>*справляєшся з управлінням командою у складних ситуаціях;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*сприяєш_досягненню_бюджетних_показників_закладу_та_оптимізації_витрат_без_втрати_якості_(в_межах_своїх_повноважень); -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*сприяєш_досягненню_бюджетних_показників_закладу_та_оптимізації_витрат_без_втрати_якості_(в_межах_своїх_повноважень);">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Результативність"/>
+        <rdfs:label>*сприяєш досягненню бюджетних показників закладу та оптимізації витрат без втрати якості (в межах своїх повноважень);</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*сприяєш_забезпеченню_високого_рівня_обслуговування_гостей,_реагуєш_на_скарги_та_запитання_гостей;_дотримуєшся_обіцянок_та_зобов&apos;язань_перед_гостями; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*сприяєш_забезпеченню_високого_рівня_обслуговування_гостей,_реагуєш_на_скарги_та_запитання_гостей;_дотримуєшся_обіцянок_та_зобов&apos;язань_перед_гостями;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Результативність"/>
+        <rdfs:label>*сприяєш забезпеченню високого рівня обслуговування гостей, реагуєш на скарги та запитання гостей; дотримуєшся обіцянок та зобов&apos;язань перед гостями;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*тактовно_спілкуєшся_з_усіма;_орієнтований_(-на)_на_конструктивне_врішення_конфліктів_в_команді_та_з_гостями,_у_випадку_необхідності_модеруєш_конфліктні_ситуації_працівників; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*тактовно_спілкуєшся_з_усіма;_орієнтований_(-на)_на_конструктивне_врішення_конфліктів_в_команді_та_з_гостями,_у_випадку_необхідності_модеруєш_конфліктні_ситуації_працівників;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Командність"/>
+        <rdfs:label>*тактовно спілкуєшся з усіма; орієнтований (-на) на конструктивне врішення конфліктів в команді та з гостями, у випадку необхідності модеруєш конфліктні ситуації працівників;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*цікавишся_проєктами,_до_яких_можеш_долучитись; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*цікавишся_проєктами,_до_яких_можеш_долучитись;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Проактивність"/>
+        <rdfs:label>*цікавишся проєктами, до яких можеш долучитись;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*чуєш_та_приймаєш_іншу_точку_зору,_навіть_у_випадку,_якщо_не_погоджуєшся; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*чуєш_та_приймаєш_іншу_точку_зору,_навіть_у_випадку,_якщо_не_погоджуєшся;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Відкритість"/>
+        <rdfs:label>*чуєш та приймаєш іншу точку зору, навіть у випадку, якщо не погоджуєшся;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*чітко_та_лаконічно_ділишся_інформацією_з_усіма,_орієнтуючись_на_їх_цілі_та_задачі_(як_з_лінійним_працівниками,_так_і_з_колегами);_дотримуєшся_обіцянок_та_зобов&apos;язань; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/skills_for_employees#*чітко_та_лаконічно_ділишся_інформацією_з_усіма,_орієнтуючись_на_їх_цілі_та_задачі_(як_з_лінійним_працівниками,_так_і_з_колегами);_дотримуєшся_обіцянок_та_зобов&apos;язань;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Командність"/>
+        <rdfs:label>*чітко та лаконічно ділишся інформацією з усіма, орієнтуючись на їх цілі та задачі (як з лінійним працівниками, так і з колегами); дотримуєшся обіцянок та зобов&apos;язань;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Бізнес"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Вплив_та_мотивація"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Відкритість"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Відповідальність"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Командність"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Люди"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Організація_роботи"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Проактивність"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Результативність"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-81#Рішучість"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

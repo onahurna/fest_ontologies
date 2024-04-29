@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/linndfors/ontologies/2024/1/untitled-ontology-49/"
+     xml:base="http://www.semanticweb.org/linndfors/ontologies/2024/1/untitled-ontology-49/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/linndfors/ontologies/light_ontology"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#hasLightingCharacteristics -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#hasLightingCharacteristics">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Lighting_Characteristics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#brightness -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#brightness">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#color_temperature -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#color_temperature">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>technical term used to quantify the color of light emitted by a light source. It is measured in Kelvin (K) and represents the temperature at which a black body radiator would emit light of the same color. Lower color temperatures (e.g., 2700K) appear warmer (more yellowish) while higher color temperatures (e.g., 5000K) appear cooler (more bluish).</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#exploitation_coefficient -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#exploitation_coefficient">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#lightDiffussion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#lightDiffussion">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#lightIntensity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#lightIntensity">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#light_height -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#light_height">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#luminous_efficacy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#luminous_efficacy">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>Світловіддача або світлова ефективність (Luminous Efficacy або Light Efficacy) – це показник, який відображає, наскільки ефективно світлодіод використовує енергію для створення світла. Вона вимірюється у люменах на ват (лм/Вт, lm/W) і є відношенням світлового потоку до споживаної потужності.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#reflection_coefficients -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#reflection_coefficients">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#Blue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Blue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Color_shade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#Color_shade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Color_shade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Lighting_Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#Cool_light -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Cool_light">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Light_temperature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#Green -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Green">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Color_shade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#Light_temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Light_temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Lighting_Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#Lighting_Characteristics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Lighting_Characteristics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#Pink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Pink">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Color_shade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#Red -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Red">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Color_shade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#Warm_light -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Warm_light">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Light_temperature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#Yellow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Yellow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Color_shade"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

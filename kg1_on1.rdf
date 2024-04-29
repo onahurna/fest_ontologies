@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75/"
+     xml:base="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#has_BankAccount -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#has_BankAccount">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#LegalEntity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#BankAccount"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#has_LegalEntity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#has_LegalEntity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Workgroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#LegalEntity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#has_ProductCollection -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#has_ProductCollection">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Workgroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#ProductCollection"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#has_Venue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#has_Venue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Workgroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Venue"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#has_connection_with_Bank -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#has_connection_with_Bank">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#CashDesk"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Bank"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#hold_Position -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#hold_Position">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Assignment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Position"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#include_Product -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#include_Product">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#ProductCollection"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Product"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#include_ProductCollection -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#include_ProductCollection">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#ProductCollection"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#ProductCollection"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#include_Workgroup -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#include_Workgroup">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Workgroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Workgroup"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#include_Zone -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#include_Zone">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Zone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Zone"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#is_Person -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#is_Person">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#LegalEntity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#part_of_Venue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#part_of_Venue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Zone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Venue"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#perform_in_Workgroup -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#perform_in_Workgroup">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Assignment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Workgroup"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#refers_to_Bank -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#refers_to_Bank">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#BankAccount"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Bank"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#requires_Employee -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/ontology_for_kg1#requires_Employee">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Assignment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Employee"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Assignment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Assignment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Bank -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Bank"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#BankAccount -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#BankAccount"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#CashDesk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#CashDesk"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Customer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Customer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Employee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Employee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#FinancialAccount -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#FinancialAccount">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#BankAccount"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#LegalEntity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#LegalEntity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Position -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Position"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Product"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#ProductCollection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#ProductCollection"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Venue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Venue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Workgroup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Workgroup"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Zone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-75#Zone"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

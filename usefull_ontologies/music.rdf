@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/linndfors/ontologies/2024/1/untitled-ontology-48/"
+     xml:base="http://www.semanticweb.org/linndfors/ontologies/2024/1/untitled-ontology-48/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/linndfors/ontologies/music"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#acousticness -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#acousticness">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Музика"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.
+
+Range: 0 - 1
+Example: 0.00242</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#danceability -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#danceability">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Музика"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.
+
+Example: 0.585</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#duration_ms -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#duration_ms">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Музика"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The duration of the track in milliseconds.
+
+Example: 237040</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#energy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#energy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Музика"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy.
+
+Example: 0.842</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#instrumentalness -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#instrumentalness">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Музика"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>Predicts whether a track contains no vocals. &quot;Ooh&quot; and &quot;aah&quot; sounds are treated as instrumental in this context. Rap or spoken word tracks are clearly &quot;vocal&quot;. The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content. Values above 0.5 are intended to represent instrumental tracks, but confidence is higher as the value approaches 1.0.
+
+Example: 0.00686</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#loudness -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#loudness">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Музика"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>The overall loudness of a track in decibels (dB). Loudness values are averaged across the entire track and are useful for comparing relative loudness of tracks. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values typically range between -60 and 0 db.
+
+Example: -5.883</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#tempo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#tempo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Музика"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.
+
+Example: 118.211</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#valence -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#valence">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Музика"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).
+
+Range: 0 - 1
+Example: 0.428</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#Classical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#Classical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#Genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#Genre"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#Hip-Hop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#Hip-Hop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#Jazz -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#Jazz">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#Pop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#Pop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#Rock -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#Rock">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#Techno -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#Techno">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#Музика -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#Музика"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,560 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-18/"
+     xml:base="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-18/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#based_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#based_on"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#buy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#buy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#contain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#contain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#create -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#create"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#has">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#include -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#include">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Target_features"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Behavior"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Demographic"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Interests"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#perform -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#perform"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#produce -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#produce"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#use -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#use"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Activities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Activities"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Advertisement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Advertisement">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#based_on"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Collected_data"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#create"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Posts"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Age -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Age">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Demographic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Application_promotion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Application_promotion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Goal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Audience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Audience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Awareness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Awareness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Goal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Personal_information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Clicks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Clicks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Activities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Collected_data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Collected_data">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#contain"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Personal_information"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Conversion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Conversion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Goal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Cycling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Cycling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Interests"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Demographic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Demographic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Personal_information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Distance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Distance"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Explicit_data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Explicit_data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Collected_data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#FB_Target -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#FB_Target">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Goal"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#produce"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Advertisement"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#use"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Activities"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#use"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Target_features"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Facebook_audience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Facebook_audience">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#perform"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Activities"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Audience"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Female -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Female">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Gender"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Fishing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Fishing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Interests"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Gender -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Gender">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Demographic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Goal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Goal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Interests -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Interests">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Personal_information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Involvement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Involvement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Goal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Job_Title -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Job_Title">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Personal_information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Language">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Demographic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Lead_generation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Lead_generation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Goal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Life_Events -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Life_Events">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Personal_information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Likes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Likes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Activities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Location">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Personal_information"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Distance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Male -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Male">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Gender"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Metadata -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Metadata">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Collected_data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#None -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#None">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Gender"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Off-FB_data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Off-FB_data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Collected_data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Off-Facebook_audience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Off-Facebook_audience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Audience"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Person">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Personal_information"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Personal_information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Personal_information"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Politics_preferences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Politics_preferences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Interests"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Posts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Posts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Activities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Relationship_Status -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Relationship_Status">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Personal_information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Reposts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Reposts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Activities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Sellers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Sellers">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#buy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Advertisement"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Target_features -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Target_features">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Behavior"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Demographic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Interests"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Third-party_data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Third-party_data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Collected_data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Traffic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Traffic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Goal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#Yoga -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#Yoga">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Interests"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#finance_manager -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#finance_manager">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Job_Title"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#recently_moved -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#recently_moved">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Life_Events"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#shopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#shopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/FB_target#single -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/FB_target#single">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/FB_target#Relationship_Status"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

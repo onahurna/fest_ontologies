@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66/"
+     xml:base="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/linndfors/ontologies/experience_ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Collective_experience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Collective_experience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Experience_Quantity_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Experience_Frequency_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Experience_Frequency_type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Experience_Occurrence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Experience_Occurrence"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Experience_Quantity_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Experience_Quantity_type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Experience_Wanted -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Experience_Wanted"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Experience_valence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Experience_valence"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#First_time_experience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#First_time_experience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Experience_Frequency_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Individual_experience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Individual_experience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Experience_Quantity_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Negative_experience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Negative_experience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Experience_valence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Neutral_experience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Neutral_experience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Experience_valence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Not_occurred_experience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Not_occurred_experience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Experience_Occurrence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Occurred_experience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Occurred_experience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Experience_Occurrence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Positive_experience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Positive_experience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Experience_valence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Repeated_experience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Repeated_experience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Experience_Frequency_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Unwanted_experience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Unwanted_experience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Experience_Wanted"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Wanted_experience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Wanted_experience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/2/untitled-ontology-66#Experience_Wanted"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

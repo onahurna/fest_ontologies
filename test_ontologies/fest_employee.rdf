@@ -1,0 +1,581 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/linndfors/ontologies/fest_employee#"
+     xml:base="http://www.semanticweb.org/linndfors/ontologies/fest_employee"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Має_Локаль_картку -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Має_Локаль_картку">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Номер_картки"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Має_навички -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Має_навички">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Навички"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Має_освіту -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Має_освіту">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Освіта"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Має_посаду -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Має_посаду">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Посада"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Має_підлеглих_співробітників -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Має_підлеглих_співробітників">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Має_термін_роботи -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Має_термін_роботи">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Термін_роботи"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Має_тип_роботи -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Має_тип_роботи">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Тип_роботи"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Працює_в_закладі -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Працює_в_закладі">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Заклад"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Працює_у_відділі -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Працює_у_відділі">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Відділ"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Відгуки -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Відгуки">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Дата_народження -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Дата_народження">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Дата_прийняття_на_роботу -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Дата_прийняття_на_роботу">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Заклад -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Заклад"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Заробітна_плата -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Заробітна_плата">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#КодПоДРФО -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#КодПоДРФО">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Мобільний_телефон -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Мобільний_телефон">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Місце_проживання -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Місце_проживання">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Назва_закладу -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Назва_закладу">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Заклад"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Заклад"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Опис_закладу -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Опис_закладу">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Заклад"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Заклад"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Оцінка -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Оцінка">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Прізвище -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Прізвище">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Рівень_навички -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Рівень_навички">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Навички"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Стать -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Стать">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Страховий_номер -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Страховий_номер">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#УІД -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#УІД">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Унікальний_код -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Унікальний_код">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Ім&apos;я -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Ім&apos;я">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Протокол_закладу(характеристика,_опис_і_тд) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Протокол_закладу(характеристика,_опис_і_тд)">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Заклад"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Заклад"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Associate_degree -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Associate_degree">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Освіта"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Bachelor_degree -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Bachelor_degree">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Освіта"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Doctoral_degree -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Doctoral_degree">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Освіта"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Full_time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Full_time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Тип_роботи"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Hard_skills -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Hard_skills">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Навички"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Master_degree -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Master_degree">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Освіта"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Part_time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Part_time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Тип_роботи"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Regular -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Regular">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Термін_роботи"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Secondary_education -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Secondary_education">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Освіта"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Soft_skills -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Soft_skills">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Навички"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Temporary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Temporary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Термін_роботи"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Аналітичні_навички -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Аналітичні_навички">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Hard_skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Відділ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Відділ">
+        <rdfs:comment>добавити типи відділів на фесті</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Емоційний_інтелект -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Емоційний_інтелект">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Soft_skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Ефективне_спілкування -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Ефективне_спілкування">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Soft_skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Заклад -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Заклад"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Керівна_посада -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Керівна_посада">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Посада"/>
+        <rdfs:comment></rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Комунікаційні_навички -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Комунікаційні_навички">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Hard_skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Креативність -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Креативність">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Soft_skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Лідерство -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Лідерство">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Soft_skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Маркетингові_навички -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Маркетингові_навички">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Hard_skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Навички -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Навички"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Номер_картки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Номер_картки"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Освіта -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Освіта"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Посада -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Посада">
+        <rdfs:comment>добавити типи посад на фесті</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Підпорядкована_посада -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Підпорядкована_посада">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Посада"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Робітник"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Співпраця_та_ділова_культура -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Співпраця_та_ділова_культура">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Soft_skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Термін_роботи -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Термін_роботи"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Технічні_навички -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Технічні_навички">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Hard_skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Тип_роботи -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Тип_роботи"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Толерантність_до_стресу -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Толерантність_до_стресу">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Soft_skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Управлінські_навички -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Управлінські_навички">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Hard_skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/fest_employee#Фінансові_навички -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Фінансові_навички">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/fest_employee#Hard_skills"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

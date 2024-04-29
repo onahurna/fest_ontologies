@@ -1,0 +1,522 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13/"
+     xml:base="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/linndfors/ontologies/ORG"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#concludes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#concludes">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#signed_by"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#has"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#include -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#include"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#signed_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#signed_by"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#works_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#works_with">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Alliances -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Alliances">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Currency"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Holding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Area -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Area">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Nomenclature"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Autoclient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Autoclient"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Bank -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Bank"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Bank_account -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Bank_account">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Bank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Business_Units -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Business_Units">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Cash_register_of_business_units"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Price_list"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Warehouse"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Individuals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Cash_register -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Cash_register">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Currency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Cash_register_of_business_units -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Cash_register_of_business_units">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Currency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Cash_register_safe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Cash_register_safe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Currency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Category -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Category">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Nomenclature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Contact_Information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Contact_Information"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Contact_info_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Contact_info_type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Contact_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Contracts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Contracts">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Currency"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Individuals"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Localization"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Prices_type"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#signed_by"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Organization"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#signed_by"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Vendors&amp;Customers"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Currency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Currency"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Customer_price_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Customer_price_type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Customers_Licenses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Customers_Licenses"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Direction_of_Business -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Direction_of_Business">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Business_Units"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Alliances"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#EDUS_school_comparison -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#EDUS_school_comparison"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Fiscal_Cash_register -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Fiscal_Cash_register">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Currency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Food_cost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Food_cost">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Nomenclature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Holding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Holding"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Individuals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Individuals"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Language">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Localization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Localization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Localization"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Nomenclature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Nomenclature">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Localization"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Organization">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#concludes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Contracts"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Autoclient"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Bank_account"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Cash_register"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Contact_Information"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Fiscal_Cash_register"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Localization"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#works_with"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Vendors&amp;Customers"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Price_list -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Price_list">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Nomenclature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Price_list_types -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Price_list_types">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Price_list"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Prices_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Prices_type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Production_code -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Production_code">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Nomenclature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Storage_location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Storage_location">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Nomenclature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Tax_groups -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Tax_groups">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Fiscal_Cash_register"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Trademark -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Trademark">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Nomenclature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Units_of_measurement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Units_of_measurement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Nomenclature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Warehouse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Warehouse">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Area"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#(UoM)Classifier_UKTZED -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#(UoM)Classifier_UKTZED">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Nomenclature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#(UoM)_product_code_classifier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#(UoM)_product_code_classifier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Nomenclature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Vendors&amp;Customers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Vendors&amp;Customers">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#concludes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Contracts"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Bank_account"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Contact_Information"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Customer_price_type"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Customers_Licenses"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#EDUS_school_comparison"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Localization"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-13#Individuals"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

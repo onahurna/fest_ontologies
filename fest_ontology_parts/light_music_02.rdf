@@ -1,0 +1,3515 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#"
+     xml:base="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#create_atmosphere -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#create_atmosphere">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#main_object_properties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Product"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Staff"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Atmosphere"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#create_emotions -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#create_emotions">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#main_object_properties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Product"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Staff"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#create_expectations -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#create_expectations">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#main_object_properties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Experience"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Expectations"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#create_experience -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#create_experience">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#main_object_properties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Atmosphere"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Mood"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Experience"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#create_format -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#create_format">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#main_object_properties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Business"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Idea"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Mission"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Values"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Format"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#create_mood -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#create_mood">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#main_object_properties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Product"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Staff"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Mood"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#include -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#include">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#main_object_properties"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#hasMusicCharacteristics -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#hasMusicCharacteristics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#main_object_properties -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#main_object_properties"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#hasLightingCharacteristics -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#hasLightingCharacteristics"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#music_data_properties -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#music_data_properties"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#light_data_properties -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#light_data_properties"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#brightness -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#brightness">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#light_data_properties"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#color_temperature -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#color_temperature">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#light_data_properties"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>technical term used to quantify the color of light emitted by a light source. It is measured in Kelvin (K) and represents the temperature at which a black body radiator would emit light of the same color. Lower color temperatures (e.g., 2700K) appear warmer (more yellowish) while higher color temperatures (e.g., 5000K) appear cooler (more bluish).</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#exploitation_coefficient -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#exploitation_coefficient">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#light_data_properties"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#lightDiffussion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#lightDiffussion">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#light_data_properties"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#lightIntensity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#lightIntensity">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#light_data_properties"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#light_height -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#light_height">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#light_data_properties"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#luminous_efficacy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#luminous_efficacy">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#light_data_properties"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>Світловіддача або світлова ефективність (Luminous Efficacy або Light Efficacy) – це показник, який відображає, наскільки ефективно світлодіод використовує енергію для створення світла. Вона вимірюється у люменах на ват (лм/Вт, lm/W) і є відношенням світлового потоку до споживаної потужності.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#reflection_coefficients -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#reflection_coefficients">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#light_data_properties"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#acousticness -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#acousticness">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#music_data_properties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Музика"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.
+
+Range: 0 - 1
+Example: 0.00242</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#danceability -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#danceability">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#music_data_properties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Музика"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.
+
+Example: 0.585</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#duration_ms -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#duration_ms">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#music_data_properties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Музика"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The duration of the track in milliseconds.
+
+Example: 237040</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#energy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#energy">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#music_data_properties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Музика"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy.
+
+Example: 0.842</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#instrumentalness -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#instrumentalness">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#music_data_properties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Музика"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>Predicts whether a track contains no vocals. &quot;Ooh&quot; and &quot;aah&quot; sounds are treated as instrumental in this context. Rap or spoken word tracks are clearly &quot;vocal&quot;. The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content. Values above 0.5 are intended to represent instrumental tracks, but confidence is higher as the value approaches 1.0.
+
+Example: 0.00686</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#loudness -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#loudness">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#music_data_properties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Музика"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>The overall loudness of a track in decibels (dB). Loudness values are averaged across the entire track and are useful for comparing relative loudness of tracks. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values typically range between -60 and 0 db.
+
+Example: -5.883</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#tempo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#tempo">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#music_data_properties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Музика"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.
+
+Example: 118.211</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#valence -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#valence">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#music_data_properties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Музика"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).
+
+Range: 0 - 1
+Example: 0.428</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Atmosphere -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Atmosphere"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#BBQ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#BBQ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Їжа"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Business -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Business"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Client -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Concept -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Concept">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Business"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Idea"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Mission"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Values"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Format"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Expectations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Expectations"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Experience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Experience"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Format -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Format">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Product"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Staff"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Idea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Idea"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Mission -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Mission"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Mood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Mood"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Pet-friendly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Pet-friendly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Pop-up -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Pop-up"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#PravdaOrchestra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#PravdaOrchestra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Staff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Product"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Scenario -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Space -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Staff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Staff"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Values -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Values"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Європейська_кухня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Європейська_кухня">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Їжа"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Івент_хол -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Івент_хол">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Івенти -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Івенти">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Індивідуальний_підхід -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Індивідуальний_підхід">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Іриска -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Іриска">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Солодке"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Іспанський_чобіт -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Іспанський_чобіт"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Історія_міста -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Історія_міста"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Їдальня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Їдальня">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Їжа -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Їжа">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Автентичні_страви -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Автентичні_страви">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Їжа"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Авторська_продукція -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Авторська_продукція">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Акція -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Акція">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Алxімія -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Алxімія">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Idea"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Алкоголь -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Алкоголь"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Алкогольні_молочні_коктейлі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Алкогольні_молочні_коктейлі">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Алкоголь"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Альтернатива -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Альтернатива">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Арабіка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Арабіка">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Артплатформа -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Артплатформа"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Афродизіаки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Афродизіаки">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Їжа"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Одяг"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Багет -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Багет">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Хліб"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Балкон -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Балкон">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Бандера -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Бандера"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Бандерівці -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Бандерівці"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Банкети -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Банкети">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Бар -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Бар">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Бармен -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Бармен">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Staff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Барна_тусовка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Барна_тусовка">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Батіг -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Батіг"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Безсоромна_пропозиція -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Безсоромна_пропозиція">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Бернардинський_дворик -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Бернардинський_дворик">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Благодійний_концерт -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Благодійний_концерт">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Бограч -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Бограч"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Борщ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Борщ"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Бронюй_номер -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Бронюй_номер">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Бункер -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Бункер"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Біля_дому -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Біля_дому">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Ванна_в_номері -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Ванна_в_номері"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Вареники -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вареники"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Велике_лате -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Велике_лате">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Венера_в_хутрі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Венера_в_хутрі">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Коктейлі"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Вечеря -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вечеря">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Вечір -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вечір">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Вечірка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вечірка">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Вивід_москаля -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вивід_москаля"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Вигляд_на_ратушу -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вигляд_на_ратушу"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Вид_на_Площу_Ринок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вид_на_Площу_Ринок"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Винна_мапа -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Винна_мапа"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Вино -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вино">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Алкоголь"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Виставка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Виставка">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Вихідні_у_Львові -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вихідні_у_Львові">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Вишнівка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вишнівка">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Алкоголь"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Вишнівка_в_мандрівку -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вишнівка_в_мандрівку">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Вогень -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вогень"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Вогонь -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вогонь"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Володарка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Володарка"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Відкрита_кухня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Відкрита_кухня"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Відпочинок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Відпочинок">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Вікенд_Львів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вікенд_Львів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Вініл -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вініл"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Галерея -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Галерея">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Галицькі_рецепти -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Галицькі_рецепти">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Гарно_проведений_час -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Гарно_проведений_час">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Гарячі_напої -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Гарячі_напої"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Гас -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Гас"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Гастровечори -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Гастровечори">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Гастрономічна_атракція -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Гастрономічна_атракція"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Гендер_паті -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Гендер_паті">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Годинники -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Годинники"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Гостро -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Гостро"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Готель -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Готель">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Графіка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Графіка"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Гуцули -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Гуцули"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Гільзи -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Гільзи"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Двіж -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Двіж">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Mood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Дегустація -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Дегустація">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Дегустації_вина -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Дегустації_вина">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Деруни -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Деруни"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Десерти_з_собою -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Десерти_з_собою">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Солодке"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Джаз -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Джаз">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Джезва -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Джезва"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Джерки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Джерки">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Мʼясо"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Дзеркала -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Дзеркала"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Дзиґармайстер -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Дзиґармайстер"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Диба -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Диба"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Дивізія_Галичина -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Дивізія_Галичина"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Дитячий_майданчик -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Дитячий_майданчик">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Для_двох -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Для_двох">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Для_закоханих -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Для_закоханих">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Для_спілкування -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Для_спілкування">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#До_пива -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#До_пива">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Закуски"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Домашнє_вино -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Домашнє_вино">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Вино"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Домашні_йогурти -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Домашні_йогурти">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Молочна_продукція"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Доставка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Доставка"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Дубові_Бочки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Дубові_Бочки"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Діалог -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Діалог">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Дівич_вечори -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Дівич_вечори">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Дід_на_вході -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Дід_на_вході"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Діти -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Діти">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Екскурсія_в_шахті -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Екскурсія_в_шахті">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Експозиція -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Експозиція"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Етно -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Етно">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Жива_музика -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Жива_музика">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Закриває_усі_потреби -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Закриває_усі_потреби">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Закуски -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Закуски">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Їжа"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Зал_для_подій -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Зал_для_подій">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Запаяна_кава -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Запаяна_кава">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Затишок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Затишок">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Mood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Захід_сонця -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Захід_сонця"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Зброя -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Зброя"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Зенітка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Зенітка"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Зігріваючі_коктейлі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Зігріваючі_коктейлі">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Коктейлі"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Зігріває -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Зігріває"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Зілля -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Зілля"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Кавʼярня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Кавʼярня">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Кава -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Кава"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Кава_в_турці -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Кава_в_турці">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Кава_з_вогнем -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Кава_з_вогнем">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Кава_на_подарунок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Кава_на_подарунок"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Кавова_підписка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Кавова_підписка">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Кавовий_шоколад -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Кавовий_шоколад">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Солодке"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Канапки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Канапки">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Закуски"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Капінг -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Капінг">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Картини -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Картини"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Карцер -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Карцер"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Кат -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Кат">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Staff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Кауфман -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Кауфман"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Кафе -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Кафе">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Керосин -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Керосин"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Київ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Київ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Клітка_боржника -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Клітка_боржника"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Кнайпа -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Кнайпа">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Коктейлі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Коктейлі"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Колекція_вінілу -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Колекція_вінілу"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Колекція_гострих_соусів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Колекція_гострих_соусів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Соуси"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Компанії -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Компанії">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Комплексні_обіди -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Комплексні_обіди">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Їжа"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Комфорт -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Комфорт">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Mood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Кондитерка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Кондитерка">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Концептуалісти -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Концептуалісти">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Концерт -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Концерт">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Концерти_українських_гуртів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Концерти_українських_гуртів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Музика"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Корпоратив -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Корпоратив">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Костери -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Костери"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Крамниця -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Крамниця">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Красиві_місця -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Красиві_місця"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Крафт -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Крафт">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Куди_піти_Львів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Куди_піти_Львів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Культурна_програма -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Культурна_програма">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Кульчицький -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Кульчицький"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Кухар -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Кухар">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Staff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Лампа -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Лампа"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#ЛбШ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#ЛбШ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Студенти"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#УКУ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Легкість -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Легкість"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Локальна_кухня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Локальна_кухня">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Їжа"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Локальна_пивоварня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Локальна_пивоварня">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Локальна_історія -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Локальна_історія"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Львів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Львів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Львівська_кава -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Львівська_кава">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Люстра -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Люстра"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Літературно -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Літературно">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Mood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Літній_майданчик -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Літній_майданчик">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Ліхтарі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Ліхтарі"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Мʼясо -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Мʼясо"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Магазин -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Магазин">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Мазох -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Мазох"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Майданчик -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Майданчик">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Майданчик_з_видом_на_озеро -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Майданчик_з_видом_на_озеро">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Майстерка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Майстерка">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Малювання -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Малювання">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Мангал -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Мангал"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Маска_ганьби -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Маска_ганьби"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Медовуха -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Медовуха">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Алкоголь"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Мережа_закладів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Мережа_закладів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Ми_просто_хочемо_випити -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Ми_просто_хочемо_випити">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Можна_з_дітьми -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Можна_з_дітьми">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Молочна_продукція -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Молочна_продукція">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Їжа"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Молочні_коктейлі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Молочні_коктейлі">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Коктейлі"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Москалодетектор -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Москалодетектор"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Москалі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Москалі"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Мотоцикл -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Мотоцикл"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Мужик_з_автоматом -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Мужик_з_автоматом"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Мужик_на_вході -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Мужик_на_вході"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Музей -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Музей">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Музиканти -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Музиканти">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Staff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#На_вино_з_собою -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#На_вино_з_собою">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#На_каву_з_десертом -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#На_каву_з_десертом">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#На_районі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#На_районі">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Навчання -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Навчання">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Наган -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Наган"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Наливають_на_вході -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Наливають_на_вході">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Idea"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Наливки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Наливки">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Алкоголь"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Намазанки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Намазанки">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Закуски"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Насолода -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Насолода"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Настоянка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Настоянка">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Алкоголь"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Натуральний_продукт -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Натуральний_продукт">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Їжа"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Нафта -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Нафта"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Ніч_в_Мазоху -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Ніч_в_Мазоху">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Обід -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Обід">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Оглядовий_майданчик -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Оглядовий_майданчик">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Одеса -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Одеса">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Одяг -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Одяг">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Освідчення -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Освідчення">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Офіціант -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Офіціант">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Staff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Паб -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Паб">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Паляниця -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Паляниця">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Хліб"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Пан_малодобрий -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Пан_малодобрий">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Staff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Панорама -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Панорама">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Патріотичні_сувеніри -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Патріотичні_сувеніри">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Сувеніри"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Пекарня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Пекарня">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Перформанс -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Перформанс"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Пивні_фестивалі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Пивні_фестивалі">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Пиво -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Пиво">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Алкоголь"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Площа_Ринок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Площа_Ринок">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Львів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#По-східному -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#По-східному"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Побачення -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Побачення">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Подарунок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Подарунок">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Подарунок_з_перчинкою -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Подарунок_з_перчинкою">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Подарунок"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Подкаст -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Подкаст"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Поливки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Поливки">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Соуси"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Посвідки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Посвідки"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Посиденьки_з_друзями -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Посиденьки_з_друзями">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Пристрасть -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Пристрасть"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Пробірки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Пробірки"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Пструг -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Пструг">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Риба"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Путін_Хуйло -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Путін_Хуйло"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Півметра_ковбаси -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Півметра_ковбаси">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Мʼясо"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Підземелля -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Підземелля">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Пікніки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Пікніки">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Ребра -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Ребра">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Мʼясо"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Резервація -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Резервація"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Ресторан -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Ресторан">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Ресторація -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Ресторація">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Риба -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Риба"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Робота -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Робота">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Розпуста -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Розпуста"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Рок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Рок">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Романтично -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Романтично">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Mood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Сад_на_даху -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сад_на_даху">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Сало -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сало"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Сало_в_шоколаді -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сало_в_шоколаді">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Сало"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Святкування_дня_народження -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Святкування_дня_народження">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Свято -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Свято">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Сертифікат -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сертифікат">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Подарунок"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Сирник -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сирник">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Солодке"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Сирні_наїдки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сирні_наїдки">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Закуски"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Скульптура -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Скульптура"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Смажене -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Смажене">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Їжа"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Смак_дитинства -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Смак_дитинства">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Сніданки_в_готелі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сніданки_в_готелі">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Сніданки_весь_день -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сніданки_весь_день">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Сніданкові_таці -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сніданкові_таці"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Сніданок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сніданок">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Солера -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Солера"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Солодке -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Солодке">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Їжа"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Солодкий_сирок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Солодкий_сирок">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Солодке"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Сомельє -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сомельє">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Staff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Соуси -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Соуси">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Їжа"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Спекотно -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Спекотно"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Спеціальні_коктейлі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Спеціальні_коктейлі">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Коктейлі"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Спокуса -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Спокуса"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Спокій -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Спокій"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Справжнє_молоко -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Справжнє_молоко"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Спік-ізі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Спік-ізі">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Mood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Стейк -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Стейк">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Мʼясо"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Стейк_мясника -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Стейк_мясника">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Мʼясо"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Стеля_з_пляшок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Стеля_з_пляшок"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Стендап -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Стендап">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Столики-підвіконники -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Столики-підвіконники"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Стрейчінг -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Стрейчінг">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Стрийський_парк -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Стрийський_парк">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Львів"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Студенти -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Студенти">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Стілень_мойсея -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Стілень_мойсея"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Сувеніри -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сувеніри">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Сусіди -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сусіди">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Сцена -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сцена">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Сімейні -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сімейні">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Сімейні_вечори -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сімейні_вечори">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Тепло -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Тепло"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Теплі_зустрічі -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Теплі_зустрічі">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Тераса -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Тераса">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Тир -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Тир"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Трансляція_матчів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Трансляція_матчів">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Трубочка_зі_згущиком -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Трубочка_зі_згущиком">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Солодке"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Туристи -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Туристи">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#УКУ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#УКУ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Студенти"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Українські_страви -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Українські_страви">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Їжа"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Унікальність -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Унікальність">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Упа -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Упа">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Фантазії -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Фантазії">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Mood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Фермерське_морозиво -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Фермерське_морозиво">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Молочна_продукція"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Фермерські -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Фермерські">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Флогер -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Флогер"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Фольк -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Фольк">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Фондю -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Фондю">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Їжа"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Форель -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Форель">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Риба"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Фуршети -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Фуршети">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Футболки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Футболки">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Одяг"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Футболки_з_Бандерою -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Футболки_з_Бандерою">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Футболки"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Фільтр -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Фільтр">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Кава"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Хліб -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Хліб">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Їжа"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Хміль -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Хміль"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Хріновуха -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Хріновуха">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Алкоголь"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Хімічний_дослід -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Хімічний_дослід"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Центр -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Центр">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Церемонія -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Церемонія"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Ціни_з_нулем -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Ціни_з_нулем">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Idea"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Червона_Рута -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Червона_Рута">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Музика"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Черга -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Черга">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Mood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Шашлик -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Шашлик">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Мʼясо"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Шеврони -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Шеврони"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Шкіра -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Шкіра"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Шкіряні_аксесуари -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Шкіряні_аксесуари"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Шмагання -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Шмагання"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Шмайсер -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Шмайсер"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Штрудель -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Штрудель">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Солодке"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Шумно -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Шумно">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Mood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Як_вдома -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Як_вдома">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#!FESTRepublic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#!FESTRepublic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#56_кранів -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#56_кранів"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Істина_в_мені_(наше_фірмове_вино) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Істина_в_мені_(наше_фірмове_вино)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Вино"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Вечір_п&apos;ятниці -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вечір_п&apos;ятниці">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Востро(наше_фірмове_пиво) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Востро(наше_фірмове_пиво)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Пиво"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Голова_з_пліч(наливка) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Голова_з_пліч(наливка)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Наливки"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Київські_львів&apos;яни -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Київські_львів&apos;яни">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Туристи"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Останнє_бажання(фірмовий_гострий_соус) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Останнє_бажання(фірмовий_гострий_соус)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Соуси"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#П&apos;яна_Вишня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#П&apos;яна_Вишня"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Справедливість(фірмова_страва_на_компанію) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Справедливість(фірмова_страва_на_компанію)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Мʼясо"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Томагавк(концептуальний_стейк) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Томагавк(концептуальний_стейк)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Мʼясо"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#Music_Characteristics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#Music_Characteristics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#Ceiling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#Ceiling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#Light_location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#Floor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#Floor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#Light_location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#Light_distribution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#Light_distribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Lighting_Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#Light_location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#Light_location">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Lighting_Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#Surface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#Surface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#Light_location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#Wall -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#Wall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#Light_location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#Розсіяне -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#Розсіяне">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#Light_distribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#Точкове -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#Точкове">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format_0.2_light#Light_distribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#Blue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Blue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Color_shade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#Color_shade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Color_shade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Lighting_Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#Cool_light -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Cool_light">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Light_temperature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#Green -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Green">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Color_shade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#Light_temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Light_temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Lighting_Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#Lighting_Characteristics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Lighting_Characteristics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#Pink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Pink">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Color_shade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#Red -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Red">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Color_shade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#Warm_light -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Warm_light">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Light_temperature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/light_ontology#Yellow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Yellow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/light_ontology#Color_shade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#Classical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#Classical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#Genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#Genre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#Music_Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#Hip-Hop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#Hip-Hop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#Jazz -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#Jazz">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#Pop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#Pop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#Rock -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#Rock">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#Techno -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#Techno">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/music#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/music#Музика -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/music#Музика">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Atmosphere"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#hasMusicCharacteristics"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format0.2_light_music#Music_Characteristics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Good -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Good">
+        <rdf:type rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Expectations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Happy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Happy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Interested -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Interested"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Positive -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Positive">
+        <rdf:type rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Experience"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Ідентичність -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Ідентичність"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Їжа -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Їжа"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Бізнес_модель -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Бізнес_модель"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Вечеря -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вечеря"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Криївка -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Криївка"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Обід -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Обід"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Ознайомлення_з_УПА -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Ознайомлення_з_УПА"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Паб_з_пивом_в_стилі_УПА -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Паб_з_пивом_в_стилі_УПА"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Патріотична -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Патріотична"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Персонал -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Персонал"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Ресторан -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Ресторан"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Сувеніри -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сувеніри"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Турист -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Турист"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#УПА -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#УПА"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Atmosphere"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Business"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Idea"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Mission"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Product"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Staff"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Values"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Івент_хол"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Балкон"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Бернардинський_дворик"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Дитячий_майданчик"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Зал_для_подій"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Літній_майданчик"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Майданчик"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Майданчик_з_видом_на_озеро"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Музей"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Оглядовий_майданчик"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Панорама"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Підземелля"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сад_на_даху"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сцена"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Тераса"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Івент_хол"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Балкон"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Дитячий_майданчик"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Зал_для_подій"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Літній_майданчик"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Майданчик"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Оглядовий_майданчик"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Панорама"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Підземелля"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сад_на_даху"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сцена"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Тераса"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Івенти"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Банкети"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Барна_тусовка"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Благодійний_концерт"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вечеря"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вечір"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вечірка"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Виставка"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вихідні_у_Львові"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вишнівка_в_мандрівку"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Відпочинок"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вікенд_Львів"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Гарно_проведений_час"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Гастровечори"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Гендер_паті"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Дегустація"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Дегустації_вина"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Для_двох"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Для_закоханих"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Для_спілкування"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Дівич_вечори"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Екскурсія_в_шахті"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Капінг"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Компанії"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Концерт"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Корпоратив"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Куди_піти_Львів"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Культурна_програма"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Майстерка"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Малювання"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Ми_просто_хочемо_випити"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Можна_з_дітьми"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#На_вино_з_собою"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#На_каву_з_десертом"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Навчання"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Ніч_в_Мазоху"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Обід"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Освідчення"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Пивні_фестивалі"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Побачення"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Посиденьки_з_друзями"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Пікніки"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Робота"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Святкування_дня_народження"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Свято"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сніданки_в_готелі"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сніданки_весь_день"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сніданок"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Стендап"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Стрейчінг"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сімейні"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сімейні_вечори"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Теплі_зустрічі"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Трансляція_матчів"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Фуршети"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вечір_п&apos;ятниці"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Індивідуальний_підхід"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Альтернатива"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Галицькі_рецепти"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Діалог"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Закриває_усі_потреби"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Концептуалісти"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Смак_дитинства"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Унікальність"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Упа"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Як_вдома"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Їдальня"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Бар"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Галерея"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Готель"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Кавʼярня"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Кафе"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Кнайпа"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Кондитерка"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Крамниця"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Локальна_пивоварня"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Магазин"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Паб"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Пекарня"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Ресторан"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Ресторація"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Акція"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Бронюй_номер"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Біля_дому"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Доставка"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Кавова_підписка"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Київ"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Львів"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Мережа_закладів"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#На_районі"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Одеса"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Площа_Ринок"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Резервація"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Стрийський_парк"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Центр"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#!FESTRepublic"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Акція"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Бронюй_номер"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Діти"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Кавова_підписка"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Студенти"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сусіди"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Туристи"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Київські_львів&apos;яни"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Бармен"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Кухар"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Офіціант"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сомельє"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Гостро"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Зігріває"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Легкість"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Насолода"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Пристрасть"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Спекотно"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Спокуса"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Спокій"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Тепло"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Двіж"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Комфорт"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Літературно"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Романтично"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Спік-ізі"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Черга"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Шумно"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

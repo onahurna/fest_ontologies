@@ -1,0 +1,472 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/linndfors/ontologies/format/"
+     xml:base="http://www.semanticweb.org/linndfors/ontologies/format/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/linndfors/ontologies/format"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#create_atmosphere -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#create_atmosphere">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Product"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Staff"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Atmosphere"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#create_emotions -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#create_emotions">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Product"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Staff"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Emotion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#create_expectations -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#create_expectations">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Experience"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Expectations"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#create_experience -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#create_experience">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Atmosphere"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Emotion"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Mood"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Experience"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#create_format -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#create_format">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Business"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Idea"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Mission"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Values"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Format"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#create_mood -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#create_mood">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Product"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Staff"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Mood"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#include -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#include"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Atmosphere -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Atmosphere"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Business -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Business"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Client -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Concept -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Concept">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Business"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Idea"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Mission"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Values"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Format"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Emotion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Emotion">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Mood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Expectations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Expectations"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Experience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Experience"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Format -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Format">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Product"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Staff"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Idea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Idea"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Mission -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Mission"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Mood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Mood"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Product"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Scenario -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Space -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Space"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Staff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Staff"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Values -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Values"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Good -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Good">
+        <rdf:type rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Expectations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Happy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Happy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Emotion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Interested -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Interested">
+        <rdf:type rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Mood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Positive -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Positive">
+        <rdf:type rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Experience"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Ідентичність -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Ідентичність">
+        <rdf:type rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Values"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Їжа -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Їжа">
+        <rdf:type rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Product"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Бізнес_модель -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Бізнес_модель">
+        <rdf:type rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Business"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Вечеря -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Вечеря">
+        <rdf:type rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Криївка -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Криївка">
+        <rdf:type rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Format"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Обід -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Обід">
+        <rdf:type rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Ознайомлення_з_УПА -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Ознайомлення_з_УПА">
+        <rdf:type rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Mission"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Паб_з_пивом_в_стилі_УПА -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Паб_з_пивом_в_стилі_УПА">
+        <rdf:type rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Патріотична -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Патріотична">
+        <rdf:type rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Atmosphere"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Персонал -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Персонал">
+        <rdf:type rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Staff"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Ресторан -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Ресторан">
+        <rdf:type rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Сувеніри -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Сувеніри">
+        <rdf:type rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Product"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#Турист -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Турист">
+        <rdf:type rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/format#УПА -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#УПА">
+        <rdf:type rdf:resource="http://www.semanticweb.org/linndfors/ontologies/format#Idea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Atmosphere"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Business"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Client"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Idea"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Mission"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Product"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Scenario"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Staff"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/format#Values"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

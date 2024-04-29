@@ -1,0 +1,776 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/y.luchka/ontologies/2023/7/fest-communication/"
+     xml:base="http://www.semanticweb.org/y.luchka/ontologies/2023/7/fest-communication/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#aboutNomenclature -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#aboutNomenclature">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Context"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Nomenclature"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#callToAction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#callToAction">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Context"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#ActionInTheSystem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#getCommunication -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#getCommunication">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Customer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Communication"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#hasChannel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#hasChannel">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#hasCommDescriptor"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Communication"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Channel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#hasClients -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#hasClients">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Business"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#BusinessRelationshipSegment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#hasCommDescriptor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#hasCommDescriptor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Communication"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#CommDescriptor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#hasCommunication -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#hasCommunication">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Business"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Communication"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#hasContext -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#hasContext">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#hasCommDescriptor"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Communication"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Context"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#hasProfit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#hasProfit">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#hasCommDescriptor"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Communication"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Profit"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#hasStrategy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#hasStrategy">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#hasCommDescriptor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Communication"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Strategy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#hasTrigger -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#hasTrigger">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Communication"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Trigger"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#invite -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#invite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Context"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Event"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#member -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#member">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Segment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Customer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#modifySegmentTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#modifySegmentTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Strategy"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Segment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#reacted -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#reacted">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Customer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Reaction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#receiveReaction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#receiveReaction">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Communication"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Reaction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#relatedToBusiness -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#relatedToBusiness">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Customer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#BusinessRelationshipSegment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#commCost -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#commCost">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Communication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#endBelongDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#endBelongDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#BusinessRelationshipSegment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#reactionDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#reactionDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Reaction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#readDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#readDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Communication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#receivedDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#receivedDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Communication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#sendDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#sendDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Communication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#startBelongDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#startBelongDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#BusinessRelationshipSegment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#statusEndDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#statusEndDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#statusStartDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#statusStartDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#ActionInTheSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#ActionInTheSystem">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Reaction"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Trigger"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Beer_Weekend -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Beer_Weekend">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Bonuses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Bonuses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Discount"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Business -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Business"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#BusinessRelationshipSegment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#BusinessRelationshipSegment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Segment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Channel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Channel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Coffee_Weekend -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Coffee_Weekend">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#CommDescriptor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#CommDescriptor">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Channel"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Context"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Profit"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Strategy"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Communication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Communication"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Context -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Context"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Coupon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Coupon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Discount"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Customer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Customer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#DigitalChannel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#DigitalChannel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Channel"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#PhysicalChannel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#DirectDiscount -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#DirectDiscount">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Discount"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Discount -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Discount">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Profit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Gift -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Gift">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Profit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Like -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Like">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#ActionInTheSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Nomenclature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Nomenclature"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Oppening -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Oppening">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#PhysicalChannel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#PhysicalChannel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Channel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Poll -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Poll">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#ActionInTheSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Profit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Profit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Purchase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Purchase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#ActionInTheSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Quiz -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Quiz">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#ActionInTheSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Reaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Reaction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Segment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Segment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Stand_Up -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Stand_Up">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Strategy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Strategy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Tasting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Tasting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Trigger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Trigger"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#UsingBonuses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#UsingBonuses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Discount"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Visit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Visit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#ActionInTheSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#goToLink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#goToLink">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#ActionInTheSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#AboutDish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#AboutDish"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#AboutDrink -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#AboutDrink"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Ambassador -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Ambassador"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#App -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#App">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#DigitalChannel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Buyer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Buyer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Coupon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Coupon"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#DiscountedVisit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#DiscountedVisit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Email -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Email">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#DigitalChannel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Event -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Facebook -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Facebook">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#DigitalChannel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Identified -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Identified"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#InfoDrive -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#InfoDrive"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Infromation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Infromation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Instagram -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Instagram">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#DigitalChannel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Interested -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Interested"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Invite -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Invite"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Lost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Lost"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Loyal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Loyal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#New -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#New"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#NewLocation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#NewLocation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#News -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#News"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Poll -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Poll"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Quest -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Quest"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Quiz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Quiz"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Raffle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Raffle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#RepeatedVisit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#RepeatedVisit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#SMS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#SMS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#DigitalChannel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Tasting -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Tasting"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Tik-Tok -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Tik-Tok">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#DigitalChannel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Viber -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Viber">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#DigitalChannel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Waiter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#Waiter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y.luchka/ontologies/2023/7/untitled-ontology-3#PhysicalChannel"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
