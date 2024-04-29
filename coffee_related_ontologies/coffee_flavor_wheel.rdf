@@ -1,0 +1,1296 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100/"
+     xml:base="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Burnt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Burnt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Roasted"/>
+        <rdfs:label xml:lang="uk">Згорівші</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Fatty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Fatty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chemical"/>
+        <rdfs:label xml:lang="uk">Масний</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Fermented -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Fermented">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Alcohol/Fermented"/>
+        <rdfs:label xml:lang="uk">Ферментовані</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Fresh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Fresh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green_Vegetative"/>
+        <rdfs:label xml:lang="uk">Свіжі</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Metalic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Metalic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chemical"/>
+        <rdfs:label xml:lang="uk">Метал</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Orange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Orange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Citrus_Fruit"/>
+        <rdfs:label xml:lang="uk">Апельсин</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Raw -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Raw">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Green"/>
+        <rdfs:label xml:lang="uk">Сирий</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Salty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Salty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chemical"/>
+        <rdfs:label xml:lang="uk">Солоний</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Sweet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Sweet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+        <rdfs:label xml:lang="uk">Солодкий</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Acetic_Acid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Acetic_Acid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Sour"/>
+        <rdfs:label xml:lang="uk">Оцтова кислота</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Acrid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Acrid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Burnt"/>
+        <rdfs:label xml:lang="uk">Їдкий</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Almond -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Almond">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Nutty"/>
+        <rdfs:label xml:lang="uk">Мигдаль</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Animalic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Animalic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty"/>
+        <rdfs:label xml:lang="uk">Твариний</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Anise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Anise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_Spice"/>
+        <rdfs:label xml:lang="uk">Аніс</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Apple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Apple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit"/>
+        <rdfs:label xml:lang="uk">Яблуко</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Ashy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Ashy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Burnt"/>
+        <rdfs:label xml:lang="uk">Попелястий</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Beany -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Beany">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Green"/>
+        <rdfs:label xml:lang="uk">Бобові</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Berry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Berry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Fruity"/>
+        <rdfs:label xml:lang="uk">Ягоди</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Black_Tea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Black_Tea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Floral"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Flower"/>
+        <rdfs:label xml:lang="uk">Чорний чай</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Blackberry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Blackberry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Dark_Berries"/>
+        <rdfs:label xml:lang="uk">Ожина</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Blueberry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Blueberry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Dark_Berries"/>
+        <rdfs:label xml:lang="uk">Лохина</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_Roast -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_Roast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Burnt"/>
+        <rdfs:label xml:lang="uk">Пересмажене</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_Spice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_Spice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Spices"/>
+        <rdfs:label xml:lang="uk">Коричневі спеції</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_sugar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_sugar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Sweet"/>
+        <rdfs:label xml:lang="uk">Коричневий цукор</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Butyric_Acid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Butyric_Acid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Sour"/>
+        <rdfs:label xml:lang="uk">Масляна кислота</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Caramel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Caramel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_sugar"/>
+        <rdfs:label xml:lang="uk">Карамель</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cardboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cardboard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty"/>
+        <rdfs:label xml:lang="uk">Картон</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cereal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cereal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Roasted"/>
+        <rdfs:label xml:lang="uk">Злакові</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chamomile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chamomile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Flower"/>
+        <rdfs:label xml:lang="uk">Ромашка</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chemical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chemical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty"/>
+        <rdfs:label xml:lang="uk">Хімічні</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cherry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cherry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit"/>
+        <rdfs:label xml:lang="uk">Вишня</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chocolate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chocolate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Cocoa"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Dark_Chocolate"/>
+        <rdfs:label xml:lang="uk">Шоколад</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cinnamon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cinnamon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_Spice"/>
+        <rdfs:label xml:lang="uk">Кориця</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Citric_Acid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Citric_Acid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Sour"/>
+        <rdfs:label xml:lang="uk">Лимонна кислота</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Citrus_Fruit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Citrus_Fruit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Fruity"/>
+        <rdfs:label xml:lang="uk">Цитрусові</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Clove -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Clove">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_Spice"/>
+        <rdfs:label xml:lang="uk">Гвоздика</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Coconut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Coconut">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit"/>
+        <rdfs:label xml:lang="uk">Кокос</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Dark_Chocolate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Dark_Chocolate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Cocoa"/>
+        <rdfs:label xml:lang="uk">Чорний шоколад</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Dark_Green -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Dark_Green">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green_Vegetative"/>
+        <rdfs:label xml:lang="uk">Темна зелень</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Dried_Fruit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Dried_Fruit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Fruity"/>
+        <rdfs:label xml:lang="uk">Сушені фрукти</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Grain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Grain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cereal"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Malt"/>
+        <rdfs:label xml:lang="uk">Зерно</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Grape -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Grape">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit"/>
+        <rdfs:label xml:lang="uk">Виноград</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Grapefruit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Grapefruit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Citrus_Fruit"/>
+        <rdfs:label xml:lang="uk">Грейпфрут</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green_Vegetative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green_Vegetative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Green"/>
+        <rdfs:label xml:lang="uk">Овочеві</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Hay-Like -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Hay-Like">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green_Vegetative"/>
+        <rdfs:label xml:lang="uk">Сіно</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Hazelnut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Hazelnut">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Nutty"/>
+        <rdfs:label xml:lang="uk">Фундук</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Herb-Like -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Herb-Like">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green_Vegetative"/>
+        <rdfs:label xml:lang="uk">Трави</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Honey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Honey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_sugar"/>
+        <rdfs:label xml:lang="uk">Мед</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Isovaleric_Acid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Isovaleric_Acid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Sour"/>
+        <rdfs:label xml:lang="uk">Ізовалеріанова кислота</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Jasmine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Jasmine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Flower"/>
+        <rdfs:label xml:lang="uk">Жасмин</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Lemon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Lemon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Citrus_Fruit"/>
+        <rdfs:label xml:lang="uk">Лимон</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Lime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Lime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Citrus_Fruit"/>
+        <rdfs:label xml:lang="uk">Лайм</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Malic_Acid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Malic_Acid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Sour"/>
+        <rdfs:label xml:lang="uk">Яблучна кислота</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Malt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Malt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cereal"/>
+        <rdfs:label xml:lang="uk">Солод</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Maple_syrup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Maple_syrup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_sugar"/>
+        <rdfs:label xml:lang="uk">Кленовий сироп</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Meaty_Brothy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Meaty_Brothy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty"/>
+        <rdfs:label xml:lang="uk">М&apos;ясний</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Medicinal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Medicinal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chemical"/>
+        <rdfs:label xml:lang="uk">Медичний</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Molasses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Molasses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_sugar"/>
+        <rdfs:label xml:lang="uk">Патока</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Nutmeg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Nutmeg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_Spice"/>
+        <rdfs:label xml:lang="uk">Мускатний горіх</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Olive_Oil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Olive_Oil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Green"/>
+        <rdfs:label xml:lang="uk">Оливкова олія</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+        <rdfs:label xml:lang="uk">Інші</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Fruity"/>
+        <rdfs:label xml:lang="uk">Інші Фрукти</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Overall_sweet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Overall_sweet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Sweet"/>
+        <rdfs:label xml:lang="uk">Загалом солодке</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Overripe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Overripe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Alcohol/Fermented"/>
+        <rdfs:label xml:lang="uk">Перезрілий</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty"/>
+        <rdfs:label xml:lang="uk">Папір</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Peach -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Peach">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit"/>
+        <rdfs:label xml:lang="uk">Персик</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Peanuts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Peanuts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Nutty"/>
+        <rdfs:label xml:lang="uk">Арахіс</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Peapod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Peapod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green_Vegetative"/>
+        <rdfs:label xml:lang="uk">Горох</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit"/>
+        <rdfs:label xml:lang="uk">Груша</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pepper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pepper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Spices"/>
+        <rdfs:label xml:lang="uk">Перець</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Petroleum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Petroleum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chemical"/>
+        <rdfs:label xml:lang="uk">Нафта</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Phenolic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Phenolic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty"/>
+        <rdfs:label xml:lang="uk">Фенольний</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pineapple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pineapple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit"/>
+        <rdfs:label xml:lang="uk">Ананас</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pipe_Tobacco -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pipe_Tobacco">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Roasted"/>
+        <rdfs:label xml:lang="uk">Люльковий табак</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pomegranate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pomegranate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit"/>
+        <rdfs:label xml:lang="uk">Гранат</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Prune -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Prune">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Dried_Fruit"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Raisin"/>
+        <rdfs:label xml:lang="uk">Чорнослив</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pungent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pungent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Spices"/>
+        <rdfs:label xml:lang="uk">Гострий</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Raisin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Raisin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Dried_Fruit"/>
+        <rdfs:label xml:lang="uk">Родзинки</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Raspberry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Raspberry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Red_berries"/>
+        <rdfs:label xml:lang="uk">Малина</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Rose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Rose">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Flower"/>
+        <rdfs:label xml:lang="uk">Троянда</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Rubber -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Rubber">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chemical"/>
+        <rdfs:label xml:lang="uk">Гума</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Skunky -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Skunky">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Animalic"/>
+        <rdfs:label xml:lang="uk">Скунс</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Smoky -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Smoky">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Burnt"/>
+        <rdfs:label xml:lang="uk">Дим</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sour_Aromatics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sour_Aromatics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Sour"/>
+        <rdfs:label xml:lang="uk">Кислий аромат</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Stale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Stale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty"/>
+        <rdfs:label xml:lang="uk">Несвіжий</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Strawberry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Strawberry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Red_berries"/>
+        <rdfs:label xml:lang="uk">Полуниця</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sweet_Aromates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sweet_Aromates">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Sweet"/>
+        <rdfs:label xml:lang="uk">Солодкі аромати</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Tobacco -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Tobacco">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Roasted"/>
+        <rdfs:label xml:lang="uk">Табак</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Under-Ripe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Under-Ripe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green_Vegetative"/>
+        <rdfs:label xml:lang="uk">Недозрілість</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Vanilin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Vanilin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Sweet"/>
+        <rdfs:label xml:lang="uk">Ванілін</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Vanilla -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Vanilla">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Sweet"/>
+        <rdfs:label xml:lang="uk">Ваніль</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Vegetative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Vegetative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green_Vegetative"/>
+        <rdfs:label xml:lang="uk">Вегетативнe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Whiskey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Whiskey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Alcohol/Fermented"/>
+        <rdfs:label xml:lang="uk">Віскі</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Winey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Winey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Alcohol/Fermented"/>
+        <rdfs:label xml:lang="uk">Вино</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Woody -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Woody">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty"/>
+        <rdfs:label xml:lang="uk">Дерево</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Alcohol/Fermented -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Alcohol/Fermented">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sour/Fermented"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Sour"/>
+        <rdfs:label xml:lang="uk">Алкоголь/Ферментовані</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Moldy/Damp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Moldy/Damp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty"/>
+        <rdfs:label xml:lang="uk">Запліснявілий/вологий</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Musty/Dusty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Musty/Dusty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty"/>
+        <rdfs:label xml:lang="uk">Затхлий/Запорошений</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Musty/Earthy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Musty/Earthy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty"/>
+        <rdfs:label xml:lang="uk">Затхлий/Землястий</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Nutty/Cocoa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Nutty/Cocoa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+        <rdfs:label xml:lang="uk">Горіхи/Какао</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other"/>
+        <rdfs:label xml:lang="uk">Паперовий/Затхлий</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sour/Fermented -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sour/Fermented">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+        <rdfs:label xml:lang="uk">Кислі/Ферментовані</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Bitter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Bitter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chemical"/>
+        <rdfs:label xml:lang="uk">Гіркота</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Cocoa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Cocoa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Nutty/Cocoa"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Nutty"/>
+        <rdfs:label xml:lang="uk">Какао</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Floral -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Floral">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+        <rdfs:label xml:lang="uk">Рослинні</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Flower -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Flower">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Floral"/>
+        <rdfs:label xml:lang="uk">Квіти</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Fruity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Fruity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+        <rdfs:label xml:lang="uk">Фрукти</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Green -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Green">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+        <rdfs:label xml:lang="uk">Травʼяні</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Nutty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Nutty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Nutty/Cocoa"/>
+        <rdfs:label xml:lang="uk">Горіхи</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Roasted -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Roasted">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+        <rdfs:label xml:lang="uk">Смажені</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Sour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Sour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sour/Fermented"/>
+        <rdfs:label xml:lang="uk">Кислі</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Spices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Spices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+        <rdfs:label xml:lang="uk">Прянощі</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Bilberry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Bilberry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Dark_Berries"/>
+        <rdfs:label xml:lang="uk">Чорниця</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Dark_Berries -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Dark_Berries">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Berry"/>
+        <rdfs:label xml:lang="uk">Темні ягоди</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Passionfruit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Passionfruit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit"/>
+        <rdfs:label xml:lang="uk">Маракуя</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Red_berries -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Red_berries">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Berry"/>
+        <rdfs:label xml:lang="uk">Червоні ягоди</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Rum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Rum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Alcohol/Fermented"/>
+        <rdfs:label xml:lang="uk">Ром</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Burnt"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cereal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pipe_Tobacco"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Tobacco"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Fatty"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Metalic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Salty"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Medicinal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Petroleum"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Rubber"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Skunky"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Bitter"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Fermented"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Overripe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Whiskey"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Winey"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Fresh"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Dark_Green"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Hay-Like"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Herb-Like"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Peapod"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Under-Ripe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Vegetative"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Orange"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Grapefruit"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Lemon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Lime"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Raw"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Beany"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green_Vegetative"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Olive_Oil"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Sweet"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Nutty/Cocoa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sour/Fermented"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Floral"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Fruity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Green"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Roasted"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Spices"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Acetic_Acid"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Butyric_Acid"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Citric_Acid"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Isovaleric_Acid"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Malic_Acid"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sour_Aromatics"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Acrid"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Ashy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_Roast"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Smoky"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Almond"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Hazelnut"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Peanuts"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Animalic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cardboard"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Meaty_Brothy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Phenolic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Stale"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Woody"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Moldy/Damp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Musty/Dusty"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Musty/Earthy"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Anise"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cinnamon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Clove"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Nutmeg"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Apple"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cherry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Coconut"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Grape"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Peach"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pear"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pineapple"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pomegranate"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Berry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Citrus_Fruit"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Dried_Fruit"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Blackberry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Blueberry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Raspberry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Strawberry"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_Spice"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pepper"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pungent"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_sugar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Overall_sweet"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sweet_Aromates"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Vanilin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Vanilla"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Caramel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Honey"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Maple_syrup"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Molasses"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chamomile"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Jasmine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Rose"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

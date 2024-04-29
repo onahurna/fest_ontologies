@@ -1,0 +1,3524 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11/"
+     xml:base="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-11="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#"
+     xmlns:untitled-ontology-16="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_history"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#from -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#from">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#bad_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#bad_with">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#good_with"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#good_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#good_with"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#influence -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#influence">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#influenced_by"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#influenced_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#influenced_by"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#next -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#next"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee#consists_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee#consists_of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee#has"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee#hasFlavor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee#hasFlavor">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#has"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee#need -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee#need"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee#process -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee#process"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_history#hasPackage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_history#hasPackage">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#has"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_history#hasQuality -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_history#hasQuality">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#has"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_history#include -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_history#include"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_history#made_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_history#made_of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_history#part_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_history#part_of"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#has_temperature -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#has_temperature">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#has_weight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#has_weight">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#altitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#altitude">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#coffee_cherry_features"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#bean_densicty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#bean_densicty">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#coffee_beans_features"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#bean_size -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#bean_size">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#coffee_beans_features"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#caffeine_content_of_beans -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#caffeine_content_of_beans">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#coffee_cherry_features"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#chromosomes_number -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#chromosomes_number">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#coffee_cherry_features"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#coffee_beans_features -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#coffee_beans_features"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#coffee_cherry_features -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#coffee_cherry_features"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#flowering_period -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#flowering_period">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#coffee_cherry_features"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#frome_flower_to_cherry_time -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#frome_flower_to_cherry_time">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#coffee_cherry_features"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#has_humidity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#has_humidity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#ideal_temperature -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#ideal_temperature">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#coffee_cherry_features"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#intensity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#intensity">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#latitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#latitude">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#coffee_cherry_features"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#oli_content_of_beans -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#oli_content_of_beans">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#coffee_cherry_features"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#quality -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#quality">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#coffee_beans_features"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#rainfall_range -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#rainfall_range">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#coffee_cherry_features"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#root_depth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#root_depth">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#coffee_cherry_features"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#sugar_content_of_beans -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#sugar_content_of_beans">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#coffee_cherry_features"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#takes_time -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#takes_time">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#tree_height -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#tree_height"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Alcohol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Alcohol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Aroma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Angular -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Angular">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Form"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Aroma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Aroma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Baked -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Baked">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Aroma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Bitter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Bitter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Aroma"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Black -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Black">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Blue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Blue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Brown -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Brown">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Burnt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Burnt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Aroma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Cold -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Cold">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Temperature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Color -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Color">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Cooked -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Cooked">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Aroma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Dry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Dry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Succulence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Fatty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Fatty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Fermented -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Fermented">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Aroma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Fire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Fire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Temperature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Form -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Form">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Fresh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Fresh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Aroma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Fried -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Fried">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Aroma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Gray -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Gray">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Green -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Green">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Light -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Light">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Thikness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Metalic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Metalic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Natural -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Natural">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Aroma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Orange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Orange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Oval -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Oval">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Form"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Pink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Pink">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Purple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Purple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Raw -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Raw">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Succulence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Red -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Red">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Rotten -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Rotten">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Aroma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Round -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Round">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Form"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Salty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Salty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Aroma"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Steamed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Steamed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Aroma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Succulence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Succulence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Texture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Texture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Thick -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Thick">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Thikness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Thikness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Thikness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Wet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Wet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Succulence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#White -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#White">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Yellow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Yellow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Aftertaste -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Aftertaste">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Coffee_Drink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Coffee_Drink">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee_history#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee_history#Coffee_additional"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee_history#made_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Water"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee_history#made_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee_history#Grinded_Coffee"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Drink"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Coffee_beans -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Coffee_beans">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Rubiaceae_family"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#has_weight"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#has_humidity"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Country"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Espresso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Espresso">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#good_with"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Milk"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#hasFlavor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Sweet"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#need"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#device"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#roasting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Filter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Filter">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#bad_with"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Milk"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#roasting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Sweet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Sweet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Water">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#has_temperature"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#has_weight"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Drink"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#center_cut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#center_cut">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#coffee_cherry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#cezve -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#cezve">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#cleaning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#cleaning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#coarse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#coarse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#grinding_size"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#coffee_bean -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#coffee_bean">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#coffee_cherry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#coffee_cherry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#coffee_cherry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#device -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#device"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#fine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#fine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#grinding_size"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#french_press -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#french_press">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#grinding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#grinding">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#grinding_size"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#need"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#device"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#grinding_size -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#grinding_size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#harvesting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#harvesting">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#need"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#picker"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#process"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#coffee_cherry"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#natural -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#natural">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#hasFlavor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Sweet"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#hasFlavor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Fruity"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#processing_method"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#outer_skin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#outer_skin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#coffee_cherry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#pectine_layer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#pectine_layer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#coffee_cherry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#perchment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#perchment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#coffee_cherry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#picker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#picker">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#processing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#processing">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#influence"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#processing_method -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#processing_method"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#pulp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#pulp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#coffee_cherry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#roasting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#roasting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#silver_skin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#silver_skin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#coffee_cherry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#washed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#washed">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#hasFlavor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sour/Fermented"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#processing_method"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Acetic_Acid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Acetic_Acid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Acrid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Acrid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Burnt"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Almond -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Almond">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Nutty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Animalic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Animalic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Anise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Anise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_Spice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Apple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Apple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Ashy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Ashy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Burnt"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Beany -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Beany">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green/Vegetative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Berry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Berry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Fruity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Bitter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Bitter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chemical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Black_Tea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Black_Tea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Floral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Blackberry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Blackberry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Berry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Blueberry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Blueberry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Berry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_Roast -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_Roast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Burnt"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_Spice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_Spice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Spices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_sugar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_sugar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Sweet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Burnt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Burnt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Roasted"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Butyric_Acid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Butyric_Acid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Caramel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Caramel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_sugar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cardboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cardboard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cereal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cereal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Roasted"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chamomile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chamomile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flower"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chemical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chemical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cherry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cherry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chocolate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chocolate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cocoa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cinnamon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cinnamon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_Spice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Citric_Acid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Citric_Acid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Citrus_Fruit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Citrus_Fruit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Fruity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Clove -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Clove">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_Spice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cocoa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cocoa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Nutty/Cocoa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Coconut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Coconut">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Dark_Chocolate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Dark_Chocolate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cocoa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Dark_Green -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Dark_Green">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green_Vegetative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Dried_Fruit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Dried_Fruit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Fruity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Fermented -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Fermented">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Alcohol/Fermented"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#influenced_by"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Natural_forces"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Floral -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Floral">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flower -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flower">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Floral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Fresh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Fresh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green_Vegetative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Fruity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Fruity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Grain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Grain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cereal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Grape -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Grape">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Grapefruit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Grapefruit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Citrus_Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green_Vegetative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green_Vegetative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green/Vegetative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Hay-Like -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Hay-Like">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green_Vegetative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Hazelnut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Hazelnut">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Nutty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Herb-Like -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Herb-Like">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green_Vegetative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Honey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Honey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_sugar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Isovaleric_Acid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Isovaleric_Acid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#JAsmine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#JAsmine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flower"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Lemon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Lemon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Citrus_Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Lime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Lime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Citrus_Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Malic_Acid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Malic_Acid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Malt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Malt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Cereal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Maple_syrup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Maple_syrup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_sugar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Meaty_Brothy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Meaty_Brothy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Medicinal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Medicinal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chemical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Molasses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Molasses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_sugar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Nutmeg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Nutmeg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Brown_Spice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Nutty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Nutty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Nutty/Cocoa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Olive_Oil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Olive_Oil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green/Vegetative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Orange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Orange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Citrus_Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Fruity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Overall_sweet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Overall_sweet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Sweet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Overripe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Overripe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Alcohol/Fermented"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Peach -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Peach">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Peanuts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Peanuts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Nutty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Peapod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Peapod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green_Vegetative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pepper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pepper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Spices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Petroleum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Petroleum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chemical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Phenolic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Phenolic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pineapple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pineapple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pipe_Tobacco -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pipe_Tobacco">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Roasted"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pomegranate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pomegranate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Prune -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Prune">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Dried_Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pungent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Pungent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Spices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Raisin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Raisin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Dried_Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Raspberry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Raspberry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Berry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Raw -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Raw">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green/Vegetative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Roasted -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Roasted">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Rose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Rose">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flower"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Rubber -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Rubber">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chemical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Salty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Salty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chemical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Skunky -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Skunky">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chemical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Smoky -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Smoky">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Burnt"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sour/Fermented"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sour_Aromatics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sour_Aromatics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Spices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Spices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Stale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Stale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Strawberry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Strawberry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Berry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sweet_Aromates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sweet_Aromates">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Sweet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Tobacco -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Tobacco">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Roasted"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Under-Ripe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Under-Ripe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green_Vegetative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Vanilin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Vanilin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Sweet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Vanilla -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Vanilla">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Sweet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Vegetative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Vegetative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green_Vegetative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Whiskey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Whiskey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Alcohol/Fermented"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Winey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Winey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Alcohol/Fermented"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Woody -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Woody">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Alcohol/Fermented -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Alcohol/Fermented">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sour/Fermented"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green/Vegetative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Green/Vegetative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Moldy/Damp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Moldy/Damp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Musty/Dusty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Musty/Dusty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Musty/Earthy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Musty/Earthy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Nutty/Cocoa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Nutty/Cocoa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Papery/Musty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sour/Fermented -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Sour/Fermented">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Acaia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Acaia">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Bourbon"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Sumatra"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Bourbon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Acidity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Acidity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Qualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Agaro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Agaro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Heirloom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Aggressive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Aggressive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Acidity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Alghe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Alghe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Heirloom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Arabica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Arabica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Rubiaceae_family"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Arabusta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Arabusta">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Arabica"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Robusta"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Hybrids"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Arusha -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Arusha">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Heirloom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Astringent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Astringent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Acidity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Balanced -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Balanced">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Acidity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Blue_Mountain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Blue_Mountain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Typica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Bourbon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Bourbon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Arabica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Bright -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Bright">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Acidity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Buttery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Buttery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Texture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Catuai -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Catuai">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Caturra"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Mundo_Novo"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Crosses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Caturra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Caturra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Bourbon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Clean -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Clean">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Aftertaste"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Cloying -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Cloying">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Acidity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Coating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Coating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Texture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Coffee_flowers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Coffee_flowers">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#next"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Unripe_coffee_cherry"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#growing_stages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Coffee_package_info -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Coffee_package_info"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Coffee_tree -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Coffee_tree">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#tree_height"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Complex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Complex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Acidity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Crisp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Crisp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Acidity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Crosses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Crosses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Bourbon"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Typica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Date -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Date">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Coffee_package_info"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Dega -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Dega">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Heirloom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Delicate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Delicate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Texture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Devamachy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Devamachy">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Arabica"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Robusta"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Hybrids"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Dilla -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Dilla">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Heirloom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Diseases -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Diseases">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Natural_forces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Drink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Drink"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Drinking_Part -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Drinking_Part">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Main_Parts"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#consists_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Coffee_Drink"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Drying -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Drying">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Acidity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Elegant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Elegant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Texture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Ennarea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Ennarea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Heirloom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Excelsa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Excelsa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Rubiaceae_family"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Expected_flavor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Expected_flavor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Coffee_package_info"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Flat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Flat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Acidity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Geisha -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Geisha">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Heirloom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Gimma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Gimma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Heirloom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Gritty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Gritty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Texture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Growing_Part -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Growing_Part">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee_history#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Coffee_tree"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Main_Parts"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#consists_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Natural_forces"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#consists_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#growing_stages"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Harsh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Harsh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Aftertaste"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Heirloom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Heirloom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Arabica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Hibrido_de_Timor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Hibrido_de_Timor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Arabica"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Robusta"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Hybrids"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Hollow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Hollow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Texture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Hybrids -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Hybrids">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Arabica"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Robusta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Icatu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Icatu">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Bourbon"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Mundo_Novo"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Robusta"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Hybrids"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Intense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Intense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Acidity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Java -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Java">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Typica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#K7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#K7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Bourbon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Kaffa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Kaffa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Heirloom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Kent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Kent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Typica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Kona -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Kona">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Typica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Liberica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Liberica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Rubiaceae_family"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Lingering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Lingering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Aftertaste"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Main_Parts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Main_Parts"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Maracaturra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Maracaturra">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Caturra"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Maragogype"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Crosses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Maragogype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Maragogype">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Typica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Mellow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Mellow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Acidity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Mibirizi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Mibirizi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Bourbon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Mild -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Mild">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Acidity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Milk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Milk">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#has_temperature"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#has_weight"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Drink"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee_history#Coffee_additional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Mokka -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Mokka">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Bourbon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Mundo_Novo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Mundo_Novo">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Bourbon"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Sumatra"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Crosses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#N39 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#N39">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Bourbon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Natural_forces -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Natural_forces"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Neutral -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Neutral">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Aftertaste"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#One-way_valve -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#One-way_valve">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Coffee_package_info"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Overripe_coffee_cherry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Overripe_coffee_cherry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#growing_stages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Pacamara -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Pacamara">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Maragogype"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Pacas"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Crosses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Pacas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Pacas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Bourbon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Pacha_Colis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Pacha_Colis">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Caturra"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Pache_Comum"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Crosses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Pache_Comum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Pache_Comum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Typica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Pests -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Pests">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Natural_forces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Pointu_Bourbon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Pointu_Bourbon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Bourbon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Process">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#takes_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Provenance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Provenance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Coffee_package_info"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Qualities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Qualities"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Rainfall_patterns -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Rainfall_patterns">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Natural_forces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Rambung -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Rambung">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Heirloom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Rasuna -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Rasuna">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Hybrids"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Ripe_coffee_cherry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Ripe_coffee_cherry">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#next"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Overripe_coffee_cherry"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#growing_stages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Roast_level -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Roast_level">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Coffee_package_info"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Roasting_Part -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Roasting_Part">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Main_Parts"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#processing_method"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Robusta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Robusta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Rubiaceae_family"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Rough -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Rough">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Aftertaste"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Rubiaceae_family -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Rubiaceae_family"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Ruiru_11 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Ruiru_11">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#K7"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Rume_Sudan"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#SL_28"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Hybrids"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Rume_Sudan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Rume_Sudan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Heirloom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#SL_28 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#SL_28">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Bourbon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#SL_34 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#SL_34">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Bourbon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#San_Ramon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#San_Ramon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Typica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Sao_Bernando -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Sao_Bernando">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Typica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Sarchimor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Sarchimor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Hibrido_de_Timor"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#combine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Villa_Sarchi"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Hybrids"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Sharp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Sharp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Acidity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Soft -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Soft">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Aftertaste"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Softened_coffee_cherry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Softened_coffee_cherry">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#next"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Ripe_coffee_cherry"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#growing_stages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Sour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Sour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Acidity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Structured -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Structured">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Texture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Sumatra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Sumatra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Typica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Supple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Supple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Texture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Syrupy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Syrupy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Texture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Tafarikela -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Tafarikela">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Heirloom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Tart -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Tart">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Acidity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Tekisik -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Tekisik">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Bourbon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Thick -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Thick">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Texture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Traceability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Traceability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Coffee_package_info"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Typica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Typica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Arabica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Unripe_coffee_cherry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Unripe_coffee_cherry">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#next"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Softened_coffee_cherry"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#growing_stages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Villa_Sarchi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Villa_Sarchi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Bourbon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Viscous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Viscous">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Texture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Watery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Watery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-11#Texture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Wind_patterns -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Wind_patterns">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Natural_forces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Wine-like -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Wine-like">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Acidity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Wolisho -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Wolisho">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Heirloom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#barista -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#barista">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#beans_fermentation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#beans_fermentation">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#next"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#clean"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#washed_method_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#brewing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#brewing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#clean -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#clean">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#next"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#mill"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#washed_method_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#containers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#containers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#store"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#cupping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#cupping">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#consists_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#grinding"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#consists_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#brewing"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#consists_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#smelling"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#consists_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#stiring"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#consists_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#tasting"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#dry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#dry">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#next"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#mill"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#natural_preparation_stages"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#washed_method_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#washed_method_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#growing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#growing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#growing_stages -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#growing_stages"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#mill -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#mill">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#next"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#sort"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#natural_preparation_stages"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#washed_method_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#washed_method_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#natural_preparation_stages -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#natural_preparation_stages">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#preparation_stages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#preparation_stages -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#preparation_stages"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#protective_bags -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#protective_bags">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#store"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#remove_outer_layer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#remove_outer_layer">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#next"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#separate_by_weight"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#washed_method_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#washed_method_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#separate_by_weight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#separate_by_weight">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#next"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#beans_fermentation"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#next"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#dry"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#washed_method_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#washed_method_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#smelling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#smelling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#soil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#soil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Natural_forces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#sort -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#sort">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#next"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#store"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#natural_preparation_stages"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#washed_method_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#washed_method_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#stiring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#stiring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#store -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#store">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#natural_preparation_stages"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#washed_preparation_stages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#sun_exposure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#sun_exposure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Natural_forces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#tasting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#tasting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#wash -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#wash">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#next"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#dry"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#next"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#remove_outer_layer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#natural_preparation_stages"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#washed_method_1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#washed_method_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#washed_method_1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#washed_method_1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#washed_preparation_stages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#washed_method_2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#washed_method_2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#washed_preparation_stages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#washed_preparation_stages -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#washed_preparation_stages">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#preparation_stages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#water_boiling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#water_boiling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#brewing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee#Fruit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee#Fruit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_history#Caramel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_history#Caramel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee_history#Coffee_additional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_history#Cinamon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_history#Cinamon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee_history#Coffee_additional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_history#Coffee_additional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_history#Coffee_additional"/>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_history#Espresso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_history#Espresso">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Coffee_Drink"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_history#Farm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_history#Farm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee_history#Region"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_history#Filter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_history#Filter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Coffee_Drink"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_history#Flat-White -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_history#Flat-White">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Coffee_Drink"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_history#Grinded_Coffee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_history#Grinded_Coffee">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#from"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Country"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Coffee_package_info"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#has"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffe_characteristic#Qualities"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee#need"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#grinding"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee_history#made_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Coffee_beans"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_history#Region -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_history#Region">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-16#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_history#Salt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_history#Salt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee_history#Coffee_additional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_history#Sugar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_history#Sugar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee_history#Coffee_additional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_history#Syrup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_history#Syrup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee_history#Coffee_additional"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
