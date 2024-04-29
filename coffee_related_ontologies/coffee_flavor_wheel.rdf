@@ -360,7 +360,7 @@
     <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Dark_Chocolate -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Dark_Chocolate">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Cocoa"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chocolate"/>
         <rdfs:label xml:lang="uk">Чорний шоколад</rdfs:label>
     </owl:Class>
     
@@ -1042,11 +1042,29 @@
     
 
 
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Baking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Baking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Spices"/>
+        <rdfs:label xml:lang="uk">Випічка</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Bilberry -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Bilberry">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Dark_Berries"/>
         <rdfs:label xml:lang="uk">Чорниця</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Cranberry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Cranberry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Red_berries"/>
+        <rdfs:label xml:lang="uk">Журавлина</rdfs:label>
     </owl:Class>
     
 
@@ -1060,11 +1078,47 @@
     
 
 
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Dried_Apple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Dried_Apple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Dried_Fruit"/>
+        <rdfs:label xml:lang="uk">Сушене яблуко</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Milk_Caramel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Milk_Caramel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Caramel"/>
+        <rdfs:label xml:lang="uk">Карамель молочна</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Milk_Chocolate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Milk_Chocolate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Chocolate"/>
+        <rdfs:label xml:lang="uk">Молочний шоколад</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Passionfruit -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Passionfruit">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit"/>
         <rdfs:label xml:lang="uk">Маракуя</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Quince -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Quince">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Other_Fruit"/>
+        <rdfs:label xml:lang="uk">Айва</rdfs:label>
     </owl:Class>
     
 
@@ -1083,6 +1137,33 @@
     <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Rum">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Alcohol/Fermented"/>
         <rdfs:label xml:lang="uk">Ром</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Tomato -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Tomato">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Vegetables"/>
+        <rdfs:label xml:lang="uk">Томати</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Vegetables -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Vegetables">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-100#Green"/>
+        <rdfs:label xml:lang="uk">Овочі</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Сowberry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Сowberry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/linndfors/ontologies/coffee_flavors_wheel#Red_berries"/>
+        <rdfs:label xml:lang="uk">Брусника</rdfs:label>
     </owl:Class>
     
 
