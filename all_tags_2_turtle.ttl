@@ -62,13 +62,13 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Івент_хол
 :Івент_хол rdf:type owl:Class ;
-           rdfs:subClassOf :Категорія_Інші ;
+           rdfs:subClassOf :Категорія_Святкування ;
            rdfs:label "Івент хол"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Івенти
 :Івенти rdf:type owl:Class ;
-        rdfs:subClassOf :Категорія_Інші ;
+        rdfs:subClassOf :Категорія_Святкування ;
         rdfs:label "Івенти"@uk .
 
 
@@ -248,7 +248,7 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Барна_тусовка
 :Барна_тусовка rdf:type owl:Class ;
-               rdfs:subClassOf :Категорія_Інші ;
+               rdfs:subClassOf :Категорія_Святкування ;
                rdfs:label "Барна тусовка"@uk .
 
 
@@ -368,7 +368,7 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Вечірка
 :Вечірка rdf:type owl:Class ;
-         rdfs:subClassOf :Категорія_Інші ;
+         rdfs:subClassOf :Категорія_Святкування ;
          rdfs:label "Вечірка"@uk .
 
 
@@ -571,7 +571,7 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Гендер_паті
 :Гендер_паті rdf:type owl:Class ;
-             rdfs:subClassOf :Категорія_Інші ;
+             rdfs:subClassOf :Категорія_Святкування ;
              rdfs:label "Гендер паті"@uk .
 
 
@@ -619,13 +619,13 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Двіж
 :Двіж rdf:type owl:Class ;
-      rdfs:subClassOf :Категорія_Інші ;
+      rdfs:subClassOf :Категорія_Святкування ;
       rdfs:label "Двіж"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Де_відсвяткувати_день_народження
 :Де_відсвяткувати_день_народження rdf:type owl:Class ;
-                                  rdfs:subClassOf :Категорія_Інші ;
+                                  rdfs:subClassOf :Категорія_Святкування ;
                                   rdfs:label "Де відсвяткувати день народження"@uk .
 
 
@@ -655,7 +655,7 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/День_народження
 :День_народження rdf:type owl:Class ;
-                 rdfs:subClassOf :Категорія_Інші ;
+                 rdfs:subClassOf :Категорія_Святкування ;
                  rdfs:label "День народження"@uk .
 
 
@@ -685,7 +685,7 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Джаз
 :Джаз rdf:type owl:Class ;
-      rdfs:subClassOf :Категорія_Інші ;
+      rdfs:subClassOf :Категорія_Музика ;
       rdfs:label "Джаз"@uk .
 
 
@@ -745,13 +745,13 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Для_компанії
 :Для_компанії rdf:type owl:Class ;
-              rdfs:subClassOf :Категорія_Інші ;
+              rdfs:subClassOf :Категорія_Святкування ;
               rdfs:label "Для компанії"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Для_спілкування
 :Для_спілкування rdf:type owl:Class ;
-                 rdfs:subClassOf :Категорія_Інші ;
+                 rdfs:subClassOf :Категорія_Святкування ;
                  rdfs:label "Для спілкування"@uk .
 
 
@@ -811,13 +811,13 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Дівич_вечір
 :Дівич_вечір rdf:type owl:Class ;
-             rdfs:subClassOf :Категорія_Інші ;
+             rdfs:subClassOf :Категорія_Святкування ;
              rdfs:label "Дівич вечір"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Дівичі_вечори
 :Дівичі_вечори rdf:type owl:Class ;
-               rdfs:subClassOf :Категорія_Інші ;
+               rdfs:subClassOf :Категорія_Святкування ;
                rdfs:label "Дівичі вечори"@uk .
 
 
@@ -883,7 +883,7 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Зал_для_подій
 :Зал_для_подій rdf:type owl:Class ;
-               rdfs:subClassOf :Категорія_Інші ;
+               rdfs:subClassOf :Категорія_Святкування ;
                rdfs:label "Зал для подій"@uk .
 
 
@@ -1267,7 +1267,7 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Корпоратив
 :Корпоратив rdf:type owl:Class ;
-            rdfs:subClassOf :Категорія_Інші ;
+            rdfs:subClassOf :Категорія_Святкування ;
             rdfs:label "Корпоратив"@uk .
 
 
@@ -1279,7 +1279,7 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Крамниця
 :Крамниця rdf:type owl:Class ;
-          rdfs:subClassOf :Категорія_Інші ;
+          rdfs:subClassOf :Категорія_Сувеніри ;
           rdfs:label "Крамниця"@uk .
 
 
@@ -1405,7 +1405,7 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Лімітоване_пиво
 :Лімітоване_пиво rdf:type owl:Class ;
-                 rdfs:subClassOf :Категорія_Інші ;
+                 rdfs:subClassOf :Категорія_Пиво ;
                  rdfs:label "Лімітоване пиво"@uk .
 
 
@@ -1447,7 +1447,7 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Магазин
 :Магазин rdf:type owl:Class ;
-         rdfs:subClassOf :Категорія_Інші ;
+         rdfs:subClassOf :Категорія_Сувеніри ;
          rdfs:label "Магазин"@uk .
 
 
@@ -1610,7 +1610,7 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Місце_для_святкування
 :Місце_для_святкування rdf:type owl:Class ;
-                       rdfs:subClassOf :Категорія_Інші ;
+                       rdfs:subClassOf :Категорія_Святкування ;
                        rdfs:label "Місце для святкування"@uk .
 
 
@@ -1647,7 +1647,7 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Навчання
 :Навчання rdf:type owl:Class ;
-          rdfs:subClassOf :Категорія_Інші ;
+          rdfs:subClassOf :Категорія_Робота_Навчання ;
           rdfs:label "Навчання"@uk .
 
 
@@ -1743,7 +1743,7 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Обсмажка
 :Обсмажка rdf:type owl:Class ;
-          rdfs:subClassOf :Категорія_Інші ;
+          rdfs:subClassOf :Категорія_Кава ;
           rdfs:label "Обсмажка"@uk .
 
 
@@ -1924,7 +1924,7 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Площа_Ринок
 :Площа_Ринок rdf:type owl:Class ;
-             rdfs:subClassOf :Категорія_Інші ;
+             rdfs:subClassOf :Категорія_Львів ;
              rdfs:label "Площа Ринок"@uk .
 
 
@@ -1954,7 +1954,7 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Подарунок
 :Подарунок rdf:type owl:Class ;
-           rdfs:subClassOf :Категорія_Інші ;
+           rdfs:subClassOf :Категорія_Сувеніри ;
            rdfs:label "Подарунок"@uk .
 
 
@@ -1972,7 +1972,7 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Події
 :Події rdf:type owl:Class ;
-       rdfs:subClassOf :Категорія_Інші ;
+       rdfs:subClassOf :Категорія_Святкування ;
        rdfs:label "Подіїuk"@uk .
 
 
@@ -1996,7 +1996,8 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Посиденьки_з_друзями
 :Посиденьки_з_друзями rdf:type owl:Class ;
-                      rdfs:subClassOf :Категорія_Інші ;
+                      rdfs:subClassOf :Категорія_Інші ,
+                                      :Категорія_Святкування ;
                       rdfs:label "Посиденьки з друзями"@uk .
 
 
@@ -2122,7 +2123,7 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Робота
 :Робота rdf:type owl:Class ;
-        rdfs:subClassOf :Категорія_Інші ;
+        rdfs:subClassOf :Категорія_Робота_Навчання ;
         rdfs:label "Робота"@uk .
 
 
@@ -2140,13 +2141,13 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Рок
 :Рок rdf:type owl:Class ;
-     rdfs:subClassOf :Категорія_Інші ;
+     rdfs:subClassOf :Категорія_Музика ;
      rdfs:label "Рок"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Романтичне_місце
 :Романтичне_місце rdf:type owl:Class ;
-                  rdfs:subClassOf :Категорія_Інші ;
+                  rdfs:subClassOf :Категорія_Святкування ;
                   rdfs:label "Романтичне місце"@uk .
 
 
@@ -2170,13 +2171,13 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Святкування
 :Святкування rdf:type owl:Class ;
-             rdfs:subClassOf :Категорія_Інші ;
+             rdfs:subClassOf :Категорія_Святкування ;
              rdfs:label "Святкування"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Святкування_дня_народження
 :Святкування_дня_народження rdf:type owl:Class ;
-                            rdfs:subClassOf :Категорія_Інші ;
+                            rdfs:subClassOf :Категорія_Святкування ;
                             rdfs:label "Святкування дня народження"@uk .
 
 
@@ -2194,7 +2195,7 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сертифікат
 :Сертифікат rdf:type owl:Class ;
-            rdfs:subClassOf :Категорія_Інші ;
+            rdfs:subClassOf :Категорія_Сувеніри ;
             rdfs:label "Сертифікат"@uk .
 
 
@@ -2254,31 +2255,31 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сніданки_в_готелі
 :Сніданки_в_готелі rdf:type owl:Class ;
-                   rdfs:subClassOf :Категорія_Інші ;
+                   rdfs:subClassOf :Категорія_Сніданки ;
                    rdfs:label "Сніданки в готелі"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сніданки_весь_день
 :Сніданки_весь_день rdf:type owl:Class ;
-                    rdfs:subClassOf :Категорія_Інші ;
+                    rdfs:subClassOf :Категорія_Сніданки ;
                     rdfs:label "Сніданки весь день"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сніданкові_таці
 :Сніданкові_таці rdf:type owl:Class ;
-                 rdfs:subClassOf :Категорія_Інші ;
+                 rdfs:subClassOf :Категорія_Сніданки ;
                  rdfs:label "Сніданкові таці"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сніданок
 :Сніданок rdf:type owl:Class ;
-          rdfs:subClassOf :Категорія_Інші ;
+          rdfs:subClassOf :Категорія_Сніданки ;
           rdfs:label "Сніданок"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сніданок_цілий_день
 :Сніданок_цілий_день rdf:type owl:Class ;
-                     rdfs:subClassOf :Категорія_Інші ;
+                     rdfs:subClassOf :Категорія_Сніданки ;
                      rdfs:label "Сніданок цілий день"@uk .
 
 
@@ -2447,7 +2448,7 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Сцена
 :Сцена rdf:type owl:Class ;
-       rdfs:subClassOf :Категорія_Інші ;
+       rdfs:subClassOf :Категорія_Музика ;
        rdfs:label "Сцена"@uk .
 
 
@@ -2609,13 +2610,13 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Футболки
 :Футболки rdf:type owl:Class ;
-          rdfs:subClassOf :Категорія_Інші ;
+          rdfs:subClassOf :Категорія_Сувеніри ;
           rdfs:label "Футболки"@uk .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Футболки_з_Бандерою
 :Футболки_з_Бандерою rdf:type owl:Class ;
-                     rdfs:subClassOf :Категорія_Інші ;
+                     rdfs:subClassOf :Категорія_Сувеніри ;
                      rdfs:label "Футболки з Бандерою"@uk .
 
 
@@ -2723,7 +2724,7 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Шкіряні_аксесуари
 :Шкіряні_аксесуари rdf:type owl:Class ;
-                   rdfs:subClassOf :Категорія_Інші ;
+                   rdfs:subClassOf :Категорія_Сувеніри ;
                    rdfs:label "Шкіряні аксесуари"@uk .
 
 
@@ -2775,6 +2776,21 @@
            rdfs:label "Ящик пива"@uk .
 
 
+###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Робота_Навчання
+:Категорія_Робота_Навчання rdf:type owl:Class ;
+                           rdfs:subClassOf :Всі_Теги .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Святкування
+:Категорія_Святкування rdf:type owl:Class ;
+                       rdfs:subClassOf :Всі_Теги .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Сніданки
+:Категорія_Сніданки rdf:type owl:Class ;
+                    rdfs:subClassOf :Всі_Теги .
+
+
 ###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#!FESTRepublic
 <http://www.semanticweb.org/linndfors/ontologies/all_tags_2#!FESTRepublic> rdf:type owl:Class ;
                                                                            rdfs:subClassOf :Категорія_Інші ;
@@ -2795,7 +2811,7 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вечір_п'ятниці
 <http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Вечір_п'ятниці> rdf:type owl:Class ;
-                                                                            rdfs:subClassOf :Категорія_Інші ;
+                                                                            rdfs:subClassOf :Категорія_Святкування ;
                                                                             rdfs:label "Вечір п'ятниці"@uk .
 
 
@@ -2861,7 +2877,7 @@
 
 ###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#УКУ_(Український_католицький_університет)
 <http://www.semanticweb.org/linndfors/ontologies/all_tags_2#УКУ_(Український_католицький_університет)> rdf:type owl:Class ;
-                                                                                                       rdfs:subClassOf :Категорія_Інші ;
+                                                                                                       rdfs:subClassOf :Категорія_Робота_Навчання ;
                                                                                                        rdfs:label "УКУ (Український католицький університет)"@uk .
 
 
