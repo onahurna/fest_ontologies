@@ -1109,6 +1109,24 @@
                 rdfs:label "Категорія Пиво"@uk .
 
 
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Категорія_Робота_Навчання
+:Категорія_Робота_Навчання rdf:type owl:Class ;
+                           rdfs:subClassOf :Всі_Теги ;
+                           rdfs:label "Категорія Робота Навчання"@uk .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Категорія_Святкування
+:Категорія_Святкування rdf:type owl:Class ;
+                       rdfs:subClassOf :Всі_Теги ;
+                       rdfs:label "Категорія Святкування"@uk .
+
+
+###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Категорія_Сніданки
+:Категорія_Сніданки rdf:type owl:Class ;
+                    rdfs:subClassOf :Всі_Теги ;
+                    rdfs:label "Категорія Сніданки"@uk .
+
+
 ###  http://www.semanticweb.org/linndfors/ontologies/2024/3/untitled-ontology-96/Категорія_Сувеніри
 :Категорія_Сувеніри rdf:type owl:Class ;
                     rdfs:subClassOf :Всі_Теги ;
@@ -2774,21 +2792,6 @@
 :Ящик_пива rdf:type owl:Class ;
            rdfs:subClassOf :Категорія_Пиво ;
            rdfs:label "Ящик пива"@uk .
-
-
-###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Робота_Навчання
-:Категорія_Робота_Навчання rdf:type owl:Class ;
-                           rdfs:subClassOf :Всі_Теги .
-
-
-###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Святкування
-:Категорія_Святкування rdf:type owl:Class ;
-                       rdfs:subClassOf :Всі_Теги .
-
-
-###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#Категорія_Сніданки
-:Категорія_Сніданки rdf:type owl:Class ;
-                    rdfs:subClassOf :Всі_Теги .
 
 
 ###  http://www.semanticweb.org/linndfors/ontologies/all_tags_2#!FESTRepublic
