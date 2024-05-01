@@ -386,7 +386,9 @@
 
     <!-- http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/linndfors/ontologies/2023/11/untitled-ontology-8#Flavor">
+        <rdfs:label xml:lang="uk">Всі Смаки</rdfs:label>
+    </owl:Class>
     
 
 
